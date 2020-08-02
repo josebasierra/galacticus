@@ -7,32 +7,34 @@ public class DestroyAfterTime : MonoBehaviour
     public float secondsToDestroy = 10f;
     float currentSeconds = 0f;
 
+    Rewindable rewindable;
 
     void OnEnable()
     {
-        GetComponent<Rewindable>().OnRewind += OnRewind;
-        GetComponent<Rewindable>().OnRecord += OnRecord;
+        rewindable = GetComponent<Rewindable>();
+        rewindable.OnRewind += OnRewind;
+        rewindable.OnRecord += OnRecord;
     }
 
     void OnDisable()
     {
-        GetComponent<Rewindable>().OnRewind -= OnRewind;
-        GetComponent<Rewindable>().OnRecord -= OnRecord;
+        rewindable.OnRewind -= OnRewind;
+        rewindable.OnRecord -= OnRecord;
     }
 
-    void FixedUpdate()
-    {
-
-       
-    }
 
     void OnRewind(float time)
     {
+        if (rewindable.IsDestroyed()) return;
+
         currentSeconds -= Time.fixedDeltaTime;
     }
 
+
     void OnRecord()
     {
+        if (rewindable.IsDestroyed()) return;
+
         if (currentSeconds >= secondsToDestroy)
         {
             GameManager.Instance().Destroy(this.gameObject);

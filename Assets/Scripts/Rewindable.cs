@@ -33,6 +33,7 @@ public class Rewindable : MonoBehaviour
 
     Rigidbody myRigidbody;
     Highlighter highlighter;
+    RewindableDestruction rewindableDestruction;
     List<TimeCut> timeCuts;
 
     bool isRewinding = false;
@@ -44,7 +45,7 @@ public class Rewindable : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody>();
         highlighter = gameObject.AddComponent<Highlighter>();
-        gameObject.AddComponent<RewindableDestruction>();
+        rewindableDestruction = gameObject.AddComponent<RewindableDestruction>();
         timeCuts = new List<TimeCut>();
     }
 
@@ -85,10 +86,16 @@ public class Rewindable : MonoBehaviour
     }
 
 
-    public bool IsTimeRecordingFull()
+    public bool IsAtMaxCapacity()
     {
         int maximumTimeCuts = (int)(maximumRewindSeconds / Time.fixedDeltaTime);
         return timeCuts.Count > maximumTimeCuts;
+    }
+
+
+    public bool IsDestroyed()
+    {
+        return rewindableDestruction.IsDestroyed();
     }
 
 
@@ -124,22 +131,17 @@ public class Rewindable : MonoBehaviour
 
     void Rewind()
     {
-        if (currentRewindedSeconds > secondsToBeRewinded)
+        if (timeCuts.Count <= 0)
         {
             StopRewind();
             Record();
             return;
         }
-        else if (timeCuts.Count <= 0)
+        if (timeCuts.Count <= 0 && recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
         {
-            StopRewind();
-            if (recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
-            {
-                Destroy(this.gameObject);
-            }
-            return;
+            Destroy(this.gameObject);
         }
-        
+
         var timeCut = timeCuts[timeCuts.Count - 1];
         ApplyState(timeCut);
 
@@ -147,12 +149,25 @@ public class Rewindable : MonoBehaviour
 
         timeCuts.RemoveAt(timeCuts.Count - 1);
         currentRewindedSeconds += Time.fixedDeltaTime;
+
+
+        //if this was the last rewind:
+
+        if (timeCuts.Count <= 0 && recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
+        {
+            Destroy(this.gameObject);
+        }
+        if (timeCuts.Count <= 0 || currentRewindedSeconds > secondsToBeRewinded)
+        {
+            StopRewind();
+            Record();
+        }
     }
 
 
     void Record()
     {
-        if (IsTimeRecordingFull())
+        if (IsAtMaxCapacity())
         {
             timeCuts.RemoveAt(0);
         }

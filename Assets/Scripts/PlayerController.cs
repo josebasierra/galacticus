@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        gameObject.AddComponent<PlayerInput>();    
+        //gameObject.AddComponent<PlayerInput>();    
     }
 
 
@@ -48,7 +48,12 @@ public class PlayerController : MonoBehaviour
     public void OnMainSkill(InputValue inputValue)
     {
         bool value = inputValue.Get<float>() > 0;
-        GetComponent<GlobalRewinder>().Activate(value);
+        globalRewinder.Activate(value);
+    }
+
+    public void OnSecondarySkill()
+    {
+        RewindObjectUnderMouse();
     }
 
 

@@ -45,7 +45,7 @@ public class Health : MonoBehaviour
 
     void OnRecord()
     {
-        if (rewindable.IsTimeRecordingFull())
+        if (rewindable.IsAtMaxCapacity())
         {
             timeCuts.RemoveAt(0);
         }

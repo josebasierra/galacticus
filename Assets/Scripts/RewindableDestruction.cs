@@ -23,6 +23,15 @@ public class RewindableDestruction : MonoBehaviour
     }
 
 
+    void FixedUpdate()
+    {
+        if (isDestroyed && Time.fixedTime - timeOfDestruction > rewindable.GetMaximumRewindSeconds())
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+
     public void RewindableDestroy()
     {
         isDestroyed = true;
@@ -32,6 +41,12 @@ public class RewindableDestruction : MonoBehaviour
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
         GetComponent<Rigidbody>().isKinematic = true;
+    }
+
+
+    public bool IsDestroyed()
+    {
+        return isDestroyed;
     }
 
 
@@ -45,36 +60,11 @@ public class RewindableDestruction : MonoBehaviour
     }
 
 
-    void OnRewind(float time)
+    void OnRewind(float timeOfRewind)
     {
-        if (CompareTag("Bullet"))
-        {
-            Debug.Log("Rewind time: " + time.ToString());
-            Debug.Log("Time of destruction: " + timeOfDestruction.ToString());
-        }
-        
-
-        if (isDestroyed && timeOfDestruction == time)
+        if (isDestroyed && timeOfDestruction == timeOfRewind)
         {
             Reactivate();
         }
-        else if(isDestroyed && time - timeOfDestruction > rewindable.GetMaximumRewindSeconds())
-        {
-            Destroy(this.gameObject);
-        }
-    }
-
-
-
-
-
-    void Desactivate()
-    {
-        isDestroyed = true;
-        timeOfDestruction = Time.fixedTime;
-
-        GetComponent<MeshRenderer>().enabled = false;
-        GetComponent<Collider>().enabled = false;
-        GetComponent<Rigidbody>().isKinematic = true;
     }
 }
