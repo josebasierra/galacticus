@@ -8,7 +8,7 @@ public class BasicMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float timeToAchieveSpeed;
 
-    [SerializeField] float jumpManeuverSpeed; 
+    [SerializeField] float AirManeuverForce; 
     [SerializeField] float jumpForce;
     [SerializeField] float jumpCooldown;
 
@@ -33,27 +33,36 @@ public class BasicMovement : MonoBehaviour
     {
         bool isOnGround = PhysicsUtility.IsOnGround(myCollider);
 
-        
-            var targetSpeed = isOnGround ? moveSpeed : jumpManeuverSpeed;
-
+        if (isOnGround)
+        {
+            // Movement
             var currentVelocity = new Vector3(myRigidbody.velocity.x, 0, myRigidbody.velocity.z);
-            var desiredVelocity = moveDirection * targetSpeed;
+            var desiredVelocity = moveDirection * moveSpeed;
 
             var force = PhysicsUtility.ComputeRequiredForce(currentVelocity, desiredVelocity, timeToAchieveSpeed, myRigidbody.mass);
+            myRigidbody.AddForce(force);
 
-            if (Vector3.Dot(force, desiredVelocity) > 0)
+            //TODO: Dont slow down player 
+            //if (Vector3.Dot(force, desiredVelocity) > 0)
+            //{
+            //    myRigidbody.AddForce(force);
+            //}
+
+            // Jump
+            if (jump && !isJumpOnCooldown && isOnGround)
             {
-                myRigidbody.AddForce(force);
+                myRigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
+                isJumpOnCooldown = true;
+                Invoke(nameof(EnableJump), jumpCooldown);
             }
-
-
-        if (jump && !isJumpOnCooldown && isOnGround)
-        {
-            myRigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-
-            isJumpOnCooldown = true;
-            Invoke(nameof(EnableJump), jumpCooldown);
         }
+        else
+        {
+            //air maneuvers
+            myRigidbody.AddForce(moveDirection * AirManeuverForce);
+        }
+        
     }
 
 

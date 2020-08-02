@@ -38,8 +38,15 @@ public class PlayerController : MonoBehaviour
 
             if (rewindable != null)
             {
-                rewindable.SetIsRewinding(!rewindable.IsRewinding());
+                rewindable.StartRewind(rewindable.GetMaximumRewindSeconds());
             }
         }
+    }
+
+
+    public void OnMainSkill(InputValue inputValue)
+    {
+        bool value = inputValue.Get<float>() > 0 ? true : false;
+        GetComponent<AreaRewinder>().Activate(value);
     }
 }

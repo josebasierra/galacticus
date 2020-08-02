@@ -9,7 +9,6 @@ public class Rewindable : MonoBehaviour
     {
         public Vector3 position;
         public Quaternion rotation;
-
         public Vector3 velocity;
         public Vector3 angularVelocity;
 
@@ -17,26 +16,37 @@ public class Rewindable : MonoBehaviour
         {
             position = transform.position;
             rotation = transform.rotation;
-
             velocity = rigidbody.velocity;
             angularVelocity = rigidbody.angularVelocity;
         }
     }
 
-    public bool isRewinding = false;
-    public float maximumRewindSeconds = 10f;
+
+    [SerializeField] float maximumRewindSeconds = 10f;
+    [SerializeField] Material rewindMaterial;
 
     Rigidbody myRigidbody;
+    MeshRenderer meshRenderer;
+    Material defaultMaterial;
+
     List<TimeCut> timeCuts;
+
+    bool isRewinding = false;
+    float rewindSeconds = 0;
+    float currentRewindedSeconds = 0;
 
 
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody>();
+
+        meshRenderer = GetComponent<MeshRenderer>();
+        defaultMaterial = meshRenderer.material;
+
         timeCuts = new List<TimeCut>();
     }
 
-
+    //TODO: Fix error after many continued rewinds (teleports, missing positions/timeCuts ?)
     void FixedUpdate()
     {
         if (isRewinding)
@@ -49,43 +59,57 @@ public class Rewindable : MonoBehaviour
         }
     }
 
+
     public bool IsRewinding()
     {
         return isRewinding;
     }
 
-    public void SetIsRewinding(bool value)
+
+    public float GetMaximumRewindSeconds()
     {
-        isRewinding = value;
-        if (isRewinding)
-        {
-            myRigidbody.isKinematic = true;
-        }
-        else
-        {
-            myRigidbody.isKinematic = false;
-        }
+        return maximumRewindSeconds;
+    }
+
+
+    public void StartRewind(float time)
+    {
+        meshRenderer.sharedMaterial = rewindMaterial;
+
+        isRewinding = true;
+        rewindSeconds = Mathf.Max(Time.fixedDeltaTime, time);
+        currentRewindedSeconds = 0;
+    }
+
+
+    public void StopRewind()
+    {
+        meshRenderer.sharedMaterial = defaultMaterial;
+
+        isRewinding = false;
     }
 
 
     void Rewind()
     {
-        if (timeCuts.Count <= 0)
+        if (timeCuts.Count <= 0 || (currentRewindedSeconds > rewindSeconds))
         {
-            SetIsRewinding(false);
+            StopRewind();
+            Record();
             return;
         }
 
         var timeCut = timeCuts[timeCuts.Count - 1];
         ApplyState(timeCut);
         timeCuts.RemoveAt(timeCuts.Count - 1);
+
+        currentRewindedSeconds += Time.fixedDeltaTime;
     }
 
 
     void Record()
     {
         int maximumTimeCuts = (int)(maximumRewindSeconds / Time.fixedDeltaTime);
-
         if (timeCuts.Count > maximumTimeCuts)
         {
             timeCuts.RemoveAt(0);
