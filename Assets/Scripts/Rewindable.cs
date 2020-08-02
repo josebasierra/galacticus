@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 
 public class Rewindable : MonoBehaviour
 {
@@ -12,39 +12,58 @@ public class Rewindable : MonoBehaviour
         public Vector3 velocity;
         public Vector3 angularVelocity;
 
-        public TimeCut(Transform transform, Rigidbody rigidbody)
+        public float time;
+
+        public TimeCut(Transform transform, Rigidbody rigidbody, float time)
         {
             position = transform.position;
             rotation = transform.rotation;
             velocity = rigidbody.velocity;
             angularVelocity = rigidbody.angularVelocity;
+            this.time = time;
         }
     }
 
+    [SerializeField] float maximumRewindSeconds = 5f;
 
-    [SerializeField] float maximumRewindSeconds = 10f;
-    [SerializeField] Material rewindMaterial;
+    public event Action<float> OnRewind;
+    public event Action OnRecord;
+
+    static List<Rewindable> instances;
 
     Rigidbody myRigidbody;
-    MeshRenderer meshRenderer;
-    Material defaultMaterial;
-
+    Highlighter highlighter;
     List<TimeCut> timeCuts;
 
     bool isRewinding = false;
-    float rewindSeconds = 0;
+    float secondsToBeRewinded = 0;
     float currentRewindedSeconds = 0;
-
+    float recordedSeconds = 0;
 
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody>();
-
-        meshRenderer = GetComponent<MeshRenderer>();
-        defaultMaterial = meshRenderer.material;
-
+        highlighter = gameObject.AddComponent<Highlighter>();
+        gameObject.AddComponent<RewindableDestruction>();
         timeCuts = new List<TimeCut>();
     }
+
+
+    void OnEnable()
+    {
+        if (instances == null)
+        {
+            instances = new List<Rewindable>();
+        }
+        instances.Add(this);
+    }
+
+
+    void OnDisable()
+    {
+        instances.Remove(this);
+    }
+
 
     //TODO: Fix error after many continued rewinds (teleports, missing positions/timeCuts ?)
     void FixedUpdate()
@@ -57,6 +76,19 @@ public class Rewindable : MonoBehaviour
         {
             Record();
         }
+    }
+
+
+    public static List<Rewindable> GetInstances()
+    {
+        return instances;
+    }
+
+
+    public bool IsTimeRecordingFull()
+    {
+        int maximumTimeCuts = (int)(maximumRewindSeconds / Time.fixedDeltaTime);
+        return timeCuts.Count > maximumTimeCuts;
     }
 
 
@@ -74,17 +106,17 @@ public class Rewindable : MonoBehaviour
 
     public void StartRewind(float time)
     {
-        meshRenderer.sharedMaterial = rewindMaterial;
+        highlighter.HighlightOn();
 
         isRewinding = true;
-        rewindSeconds = Mathf.Max(Time.fixedDeltaTime, time);
+        secondsToBeRewinded = Mathf.Max(Time.fixedDeltaTime, time);
         currentRewindedSeconds = 0;
     }
 
 
     public void StopRewind()
     {
-        meshRenderer.sharedMaterial = defaultMaterial;
+        highlighter.HighlightOff();
 
         isRewinding = false;
     }
@@ -92,30 +124,44 @@ public class Rewindable : MonoBehaviour
 
     void Rewind()
     {
-        if (timeCuts.Count <= 0 || (currentRewindedSeconds > rewindSeconds))
+        if (currentRewindedSeconds > secondsToBeRewinded)
         {
             StopRewind();
             Record();
             return;
         }
-
+        else if (timeCuts.Count <= 0)
+        {
+            StopRewind();
+            if (recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
+            {
+                Destroy(this.gameObject);
+            }
+            return;
+        }
+        
         var timeCut = timeCuts[timeCuts.Count - 1];
         ApplyState(timeCut);
-        timeCuts.RemoveAt(timeCuts.Count - 1);
 
+        OnRewind?.Invoke(timeCut.time);
+
+        timeCuts.RemoveAt(timeCuts.Count - 1);
         currentRewindedSeconds += Time.fixedDeltaTime;
     }
 
 
     void Record()
     {
-        int maximumTimeCuts = (int)(maximumRewindSeconds / Time.fixedDeltaTime);
-        if (timeCuts.Count > maximumTimeCuts)
+        if (IsTimeRecordingFull())
         {
             timeCuts.RemoveAt(0);
         }
 
-        timeCuts.Add(new TimeCut(transform, myRigidbody));
+        OnRecord?.Invoke();
+
+        timeCuts.Add(new TimeCut(transform, myRigidbody, Time.fixedTime));
+
+        recordedSeconds += Time.fixedDeltaTime;
     }
 
 

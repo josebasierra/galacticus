@@ -1,5 +1,5 @@
 {
-    "name": "test_audio",
+    "name": "gameActions",
     "maps": [
         {
             "name": "Player",
@@ -22,8 +22,8 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Select",
-                    "type": "Button",
+                    "name": "MainAttack",
+                    "type": "Value",
                     "id": "29d0f9bc-b8a6-453a-a3b1-bf1ae4dcfc89",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -31,7 +31,7 @@
                 },
                 {
                     "name": "Jump",
-                    "type": "PassThrough",
+                    "type": "Value",
                     "id": "8d143e40-9d53-4fd7-ae78-a24073659e62",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -219,7 +219,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Select",
+                    "action": "MainAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -230,7 +230,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Select",
+                    "action": "MainAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -241,7 +241,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
-                    "action": "Select",
+                    "action": "MainAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -252,7 +252,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
-                    "action": "Select",
+                    "action": "MainAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -263,7 +263,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Select",
+                    "action": "MainAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

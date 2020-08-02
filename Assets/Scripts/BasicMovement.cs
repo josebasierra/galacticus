@@ -8,10 +8,9 @@ public class BasicMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float timeToAchieveSpeed;
 
-    [SerializeField] float AirManeuverForce; 
+    [SerializeField] float airManeuverForce; 
     [SerializeField] float jumpForce;
     [SerializeField] float jumpCooldown;
-
 
     Rigidbody myRigidbody;
     Collider myCollider;
@@ -60,7 +59,7 @@ public class BasicMovement : MonoBehaviour
         else
         {
             //air maneuvers
-            myRigidbody.AddForce(moveDirection * AirManeuverForce);
+            myRigidbody.AddForce(moveDirection * airManeuverForce);
         }
         
     }
