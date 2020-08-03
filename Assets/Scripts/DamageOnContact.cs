@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class DamageOnContact : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] int damage = 1;
+    [SerializeField] bool destroyOnContact = true;
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        Health health = collision.gameObject.GetComponent<Health>();
+        if (health != null)
+        {
+            health.TakeDamage(damage);
+        }
+
+        if (destroyOnContact)
+        {
+            GameManager.Instance().CustomDestroy(this.gameObject);
+        }
     }
 }

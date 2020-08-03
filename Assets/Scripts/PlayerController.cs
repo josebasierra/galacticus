@@ -16,12 +16,14 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (GetComponent<Rewindable>().IsRewinding()) return;
+
         var mouseScreenPoint = Mouse.current.position.ReadValue();
         var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
 
         Vector2 lookDirection = (mouseScreenPoint - (Vector2)playerScreenPoint).normalized;
 
-        transform.right =  new Vector3(lookDirection.x, 0, lookDirection.y);
+        transform.forward =  new Vector3(lookDirection.x, 0, lookDirection.y);
     }
 
 
@@ -50,6 +52,7 @@ public class PlayerController : MonoBehaviour
         bool value = inputValue.Get<float>() > 0;
         globalRewinder.Activate(value);
     }
+
 
     public void OnSecondarySkill()
     {

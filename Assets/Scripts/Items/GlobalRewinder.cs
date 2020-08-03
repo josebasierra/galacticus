@@ -14,7 +14,7 @@ public class GlobalRewinder : MonoBehaviour, IItem
         {
             foreach (var rewindable in Rewindable.GetInstances())
             {
-                rewindable.StartRewind(0f);
+                rewindable.StartRewind(0.1f);
             }
         }
     }

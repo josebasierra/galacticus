@@ -37,7 +37,7 @@ public class DestroyAfterTime : MonoBehaviour
 
         if (currentSeconds >= secondsToDestroy)
         {
-            GameManager.Instance().Destroy(this.gameObject);
+            GameManager.Instance().CustomDestroy(this.gameObject);
         }
         currentSeconds += Time.fixedDeltaTime;
     }

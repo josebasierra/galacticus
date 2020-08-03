@@ -42,7 +42,9 @@ public class Weapon : MonoBehaviour, IItem
         bulletTransform.Rotate(new Vector3(90, 0, 0));
 
         Vector3 shootDirection = (endPoint.position - releasePoint.position).normalized;
-        bulletTransform.GetComponent<Rigidbody>().AddForce(shootDirection * shootForce, ForceMode.Impulse);
+
+        var bulletRigidbody = bulletTransform.GetComponent<Rigidbody>();
+        bulletRigidbody.AddForce(shootDirection * shootForce, ForceMode.Impulse);
     }
 
     void EnableWeapon()

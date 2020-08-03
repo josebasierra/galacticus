@@ -34,11 +34,18 @@ public class RewindableDestruction : MonoBehaviour
 
     public void RewindableDestroy()
     {
+        if (rewindable.IsRewinding() || isDestroyed) return;
+
         isDestroyed = true;
         timeOfDestruction = Time.fixedTime;
 
         //TODO: Check components
-        GetComponent<MeshRenderer>().enabled = false;
+
+        var meshRenderers = GetComponentsInChildren<MeshRenderer>();
+        foreach(var meshRenderer in meshRenderers)
+        {
+            meshRenderer.enabled = false;
+        }
         GetComponent<Collider>().enabled = false;
         GetComponent<Rigidbody>().isKinematic = true;
     }
@@ -54,7 +61,11 @@ public class RewindableDestruction : MonoBehaviour
     {
         isDestroyed = false;
 
-        GetComponent<MeshRenderer>().enabled = true;
+        var meshRenderers = GetComponentsInChildren<MeshRenderer>();
+        foreach (var meshRenderer in meshRenderers)
+        {
+            meshRenderer.enabled = true;
+        }
         GetComponent<Collider>().enabled = true;
         GetComponent<Rigidbody>().isKinematic = false;
     }
@@ -62,6 +73,12 @@ public class RewindableDestruction : MonoBehaviour
 
     void OnRewind(float timeOfRewind)
     {
+        //if (CompareTag("Bullet"))
+        //{
+        //    Debug.Log("Time of rewind:" + timeOfRewind.ToString());
+        //    Debug.Log("Time of destruction" + timeOfDestruction.ToString());
+        //}
+
         if (isDestroyed && timeOfDestruction == timeOfRewind)
         {
             Reactivate();

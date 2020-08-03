@@ -24,7 +24,7 @@ public class Rewindable : MonoBehaviour
         }
     }
 
-    [SerializeField] float maximumRewindSeconds = 5f;
+    [SerializeField] float maximumRewindSeconds = 7.5f;
 
     public event Action<float> OnRewind;
     public event Action OnRecord;
@@ -41,17 +41,14 @@ public class Rewindable : MonoBehaviour
     float currentRewindedSeconds = 0;
     float recordedSeconds = 0;
 
+
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody>();
         highlighter = gameObject.AddComponent<Highlighter>();
         rewindableDestruction = gameObject.AddComponent<RewindableDestruction>();
         timeCuts = new List<TimeCut>();
-    }
 
-
-    void OnEnable()
-    {
         if (instances == null)
         {
             instances = new List<Rewindable>();
@@ -60,13 +57,12 @@ public class Rewindable : MonoBehaviour
     }
 
 
-    void OnDisable()
+    void OnDestroy()
     {
         instances.Remove(this);
     }
 
 
-    //TODO: Fix error after many continued rewinds (teleports, missing positions/timeCuts ?)
     void FixedUpdate()
     {
         if (isRewinding)

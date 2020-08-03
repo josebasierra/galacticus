@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     {
         if (instance != null && instance != this)
         {
-            Destroy(this.gameObject);
+            CustomDestroy(this.gameObject);
         }
         else
         {
@@ -56,16 +56,16 @@ public class GameManager : MonoBehaviour
         return currentLevelTime;
     }
 
-    public void Destroy(GameObject objectToDestroy)
+    public void CustomDestroy(GameObject objectToDestroy)
     {
-        var rDestruction = objectToDestroy.GetComponent<RewindableDestruction>();   
-        if (rDestruction != null)
+        var rDestruction = objectToDestroy.GetComponent<RewindableDestruction>();
+        if (rDestruction == null)
         {
-            rDestruction.RewindableDestroy();
+            Destroy(objectToDestroy);
         }
         else
         {
-            Destroy(objectToDestroy);
+            rDestruction.RewindableDestroy();
         }
     }
 
