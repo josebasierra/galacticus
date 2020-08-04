@@ -43,4 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed79372b8c543f54f8776b9e6b574ba2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultHighlightMaterial: {fileID: 2100000, guid: 4a0ba248976f19f48b5ce7f966ebf5a1, type: 2}
+  defaultHighlightMaterial: {fileID: 2100000, guid: 4562d6dd028cf7544900433cf62fbe17, type: 2}

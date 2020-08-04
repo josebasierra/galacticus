@@ -24,7 +24,7 @@ public class Rewindable : MonoBehaviour
         }
     }
 
-    [SerializeField] float maximumRewindSeconds = 7.5f;
+    [SerializeField] float maximumRewindSeconds = 10f;
 
     public event Action<float> OnRewind;
     public event Action OnRecord;

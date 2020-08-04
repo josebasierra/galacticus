@@ -105,7 +105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5509191940996120922}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.172, y: -0.063, z: 0}
+  m_LocalPosition: {x: 1.454, y: -0.063, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5669245775520012270}
@@ -135,7 +135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6167002342280444998}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.071, y: -0.076, z: 0}
+  m_LocalPosition: {x: 0.753, y: -0.063, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5669245775520012270}
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 5669245775520012270}
   - component: {fileID: 3756359226130306771}
   m_Layer: 0
-  m_Name: Weapon
+  m_Name: EnemyWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a677cf9d579db4bbc3597f92fe743d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootForce: 2
-  cooldown: 0.1
-  prefabBullet: {fileID: 3116605664783012234, guid: 91b64758b98fcc444b47a7233389cbe3, type: 3}
+  shootForce: 1.5
+  cooldown: 0.2
+  prefabBullet: {fileID: 3116605664783012234, guid: 9be378cd09b8ac94d846ed7922c30cf0, type: 3}
   releasePoint: {fileID: 2844050784572841087}
   endPoint: {fileID: 7175474741060614883}

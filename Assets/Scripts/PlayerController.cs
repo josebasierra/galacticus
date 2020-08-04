@@ -5,36 +5,63 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-   [SerializeField] Weapon mainWeapon;
-   [SerializeField] GlobalRewinder globalRewinder;
+    [SerializeField] Weapon mainWeapon;
+    [SerializeField] Weapon secondaryWeapon;
+    [SerializeField] GlobalRewinder globalRewinder;
+
+    BasicMovement basicMovement;
+
+
+    Rewindable rewindable;
 
     void Start()
     {
-        //gameObject.AddComponent<PlayerInput>();    
+        //gameObject.AddComponent<PlayerInput>();   
+        rewindable = GetComponent<Rewindable>();
+        basicMovement = GetComponent<BasicMovement>();
     }
 
 
     void FixedUpdate()
     {
-        if (GetComponent<Rewindable>().IsRewinding()) return;
+        if (rewindable.IsRewinding())
+        {
+            //TODO: FIX
+            basicMovement.SetMoveDirection(Vector2.zero);
+            basicMovement.SetJump(false);
+            mainWeapon.Activate(false);
+            secondaryWeapon.Activate(false);
+        }
+        else
+        {
+            var mouseScreenPoint = Mouse.current.position.ReadValue();
+            var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
 
-        var mouseScreenPoint = Mouse.current.position.ReadValue();
-        var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
+            Vector2 lookDirection = (mouseScreenPoint - (Vector2)playerScreenPoint).normalized;
 
-        Vector2 lookDirection = (mouseScreenPoint - (Vector2)playerScreenPoint).normalized;
-
-        transform.forward =  new Vector3(lookDirection.x, 0, lookDirection.y);
+            transform.forward = new Vector3(lookDirection.x, 0, lookDirection.y);
+        }
     }
 
 
     public void OnMove(InputValue value)
     {
+        if (rewindable.IsRewinding())
+        {
+            return;
+        }
+
         GetComponent<BasicMovement>().SetMoveDirection(value.Get<Vector2>());
     }
 
 
     public void OnJump(InputValue inputValue)
     {
+        if (rewindable.IsRewinding())
+        {
+            return;
+        }
+
         bool value = inputValue.Get<float>() > 0;
         GetComponent<BasicMovement>().SetJump(value);
     }
@@ -42,8 +69,24 @@ public class PlayerController : MonoBehaviour
 
     public void OnMainAttack(InputValue inputValue)
     {
+        if (rewindable.IsRewinding())
+        {
+            return;
+        }
+
         bool value = inputValue.Get<float>() > 0;
         mainWeapon.Activate(value);
+    }
+
+    public void OnSecondaryAttack(InputValue inputValue)
+    {
+        if (rewindable.IsRewinding())
+        {
+            return;
+        }
+
+        bool value = inputValue.Get<float>() > 0;
+        secondaryWeapon.Activate(value);
     }
 
 
@@ -56,7 +99,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnSecondarySkill()
     {
-        RewindObjectUnderMouse();
+        //RewindObjectUnderMouse();
     }
 
 
