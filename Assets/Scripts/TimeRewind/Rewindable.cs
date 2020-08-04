@@ -5,25 +5,6 @@ using System;
 
 public class Rewindable : MonoBehaviour
 {
-    public struct TimeCut
-    {
-        public Vector3 position;
-        public Quaternion rotation;
-        public Vector3 velocity;
-        public Vector3 angularVelocity;
-
-        public float time;
-
-        public TimeCut(Transform transform, Rigidbody rigidbody, float time)
-        {
-            position = transform.position;
-            rotation = transform.rotation;
-            velocity = rigidbody.velocity;
-            angularVelocity = rigidbody.angularVelocity;
-            this.time = time;
-        }
-    }
-
     [SerializeField] float maximumRewindSeconds = 10f;
 
     public event Action<float> OnRewind;
@@ -31,10 +12,14 @@ public class Rewindable : MonoBehaviour
 
     static List<Rewindable> instances;
 
-    Rigidbody myRigidbody;
-    Highlighter highlighter;
     RewindableDestruction rewindableDestruction;
-    List<TimeCut> timeCuts;
+    RewindableRigidbody rewindableRigidbody;
+    RewindableHealth rewindableHealth;
+    RewindablePartSystem rewindableParticleSystem;
+
+    Highlighter highlighter;
+
+    LimitedStack<float> timeRegister;
 
     bool isRewinding = false;
     float secondsToBeRewinded = 0;
@@ -44,10 +29,30 @@ public class Rewindable : MonoBehaviour
 
     void Start()
     {
-        myRigidbody = GetComponent<Rigidbody>();
-        highlighter = gameObject.AddComponent<Highlighter>();
+        var rigidbody = GetComponent<Rigidbody>();
+        if (rigidbody != null)
+        {
+            rewindableRigidbody = new RewindableRigidbody(this, transform, rigidbody);
+        }
+
+        var health = GetComponent<Health>();
+        if (health != null)
+        {
+            rewindableHealth = new RewindableHealth(this, health);
+        }
+
+        var pSystem = GetComponent<ParticleSystem>();
+        if (pSystem != null)
+        {
+            rewindableParticleSystem = new RewindablePartSystem(this, pSystem);
+        }
+
         rewindableDestruction = gameObject.AddComponent<RewindableDestruction>();
-        timeCuts = new List<TimeCut>();
+
+        highlighter = gameObject.AddComponent<Highlighter>();
+
+
+        timeRegister = new LimitedStack<float>(MaxCapacity());
 
         if (instances == null)
         {
@@ -65,6 +70,10 @@ public class Rewindable : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (rewindableParticleSystem != null)
+        {
+
+        }
         if (isRewinding)
         {
             Rewind();
@@ -81,11 +90,14 @@ public class Rewindable : MonoBehaviour
         return instances;
     }
 
+    public int MaxCapacity()
+    {
+        return (int)(maximumRewindSeconds / Time.fixedDeltaTime);
+    }
 
     public bool IsAtMaxCapacity()
     {
-        int maximumTimeCuts = (int)(maximumRewindSeconds / Time.fixedDeltaTime);
-        return timeCuts.Count > maximumTimeCuts;
+        return timeRegister.Count() >= timeRegister.MaxCapacity();
     }
 
 
@@ -127,33 +139,38 @@ public class Rewindable : MonoBehaviour
 
     void Rewind()
     {
-        if (timeCuts.Count <= 0)
+        if (timeRegister.IsEmpty())
         {
             StopRewind();
             Record();
+            
+            if (recordedSeconds < maximumRewindSeconds)
+            {
+                Debug.Log("Rewindable: " + Time.fixedTime.ToString());
+                Destroy(this.gameObject);
+            }
             return;
         }
-        if (timeCuts.Count <= 0 && recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
-        {
-            Destroy(this.gameObject);
-        }
+        //if (timeRegister.IsEmpty() && recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
+        //{
+        //    Debug.Log("Rewindable: " + Time.fixedTime.ToString());
+        //    Destroy(this.gameObject);
+        //}
 
-        var timeCut = timeCuts[timeCuts.Count - 1];
-        ApplyState(timeCut);
+        OnRewind?.Invoke(timeRegister.Top());
+        timeRegister.Pop();
 
-        OnRewind?.Invoke(timeCut.time);
-
-        timeCuts.RemoveAt(timeCuts.Count - 1);
         currentRewindedSeconds += Time.fixedDeltaTime;
 
 
         //if this was the last rewind:
 
-        if (timeCuts.Count <= 0 && recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
-        {
-            Destroy(this.gameObject);
-        }
-        if (timeCuts.Count <= 0 || currentRewindedSeconds > secondsToBeRewinded)
+        //if (timeRegister.IsEmpty() && recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
+        //{
+        //    Debug.Log("Rewindable: " + Time.fixedTime.ToString());
+        //    Destroy(this.gameObject);
+        //}
+        if (!timeRegister.IsEmpty() && currentRewindedSeconds > secondsToBeRewinded)
         {
             StopRewind();
             Record();
@@ -163,26 +180,9 @@ public class Rewindable : MonoBehaviour
 
     void Record()
     {
-        if (IsAtMaxCapacity())
-        {
-            timeCuts.RemoveAt(0);
-        }
-
         OnRecord?.Invoke();
-
-        timeCuts.Add(new TimeCut(transform, myRigidbody, Time.fixedTime));
-
+        timeRegister.Push(Time.fixedTime);
         recordedSeconds += Time.fixedDeltaTime;
-    }
-
-
-    void ApplyState(TimeCut timeCut)
-    {
-        transform.position = timeCut.position;
-        transform.rotation = timeCut.rotation;
-
-        myRigidbody.velocity = timeCut.velocity;
-        myRigidbody.angularVelocity = timeCut.angularVelocity;
     }
 }
 

@@ -80,13 +80,13 @@ public class PlayerController : MonoBehaviour
 
     public void OnSecondaryAttack(InputValue inputValue)
     {
-        if (rewindable.IsRewinding())
-        {
-            return;
-        }
+        //if (rewindable.IsRewinding())
+        //{
+        //    return;
+        //}
 
-        bool value = inputValue.Get<float>() > 0;
-        secondaryWeapon.Activate(value);
+        //bool value = inputValue.Get<float>() > 0;
+        //secondaryWeapon.Activate(value);
     }
 
 
@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnSecondarySkill()
     {
-        //RewindObjectUnderMouse();
+        RewindObjectUnderMouse();
     }
 
 

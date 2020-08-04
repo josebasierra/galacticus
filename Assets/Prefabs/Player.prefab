@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4099942498753931476}
   - component: {fileID: 4099942498753931473}
   - component: {fileID: 4099942498753931475}
+  - component: {fileID: 3609604416115090002}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -208,6 +209,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+--- !u!114 &3609604416115090002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4099942498753931481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfccce72329babf4987a883dd23ed149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxValue: 100
+  currentValue: 0
+  deathEffect: {fileID: 9101667168483763348, guid: 1494d1f142b2e7f4784b79511e0cca14, type: 3}
 --- !u!1001 &3981345354527648117
 PrefabInstance:
   m_ObjectHideFlags: 0

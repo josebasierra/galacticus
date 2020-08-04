@@ -7,62 +7,56 @@ public class Health : MonoBehaviour
 {
     [SerializeField] int maxValue;
     [SerializeField] int currentValue;
+    [SerializeField] GameObject deathEffect;
+
 
     public event Action OnDeath;
     bool isDead = false;
-
-    //Rewind...
-    Rewindable rewindable;
-    List<int> timeCuts; //TODO: Save only changes, not every iteration/fixedUpdate
+    bool isImmune = false;
 
 
     public void TakeDamage(int value)
     {
+        var rewindable = GetComponent<Rewindable>();
+        if (rewindable != null && rewindable.IsRewinding()) return;
+
         currentValue -= value;
         if (currentValue <= 0 && !isDead)
         {
-            //death...
-            Debug.Log("DEATH TRIGGERED");
-            isDead = false;
+            isDead = true;
             OnDeath?.Invoke();
+
+            if (deathEffect != null)
+            {
+                Instantiate(deathEffect).transform.position = transform.position;
+            }
+
             GameManager.Instance().CustomDestroy(this.gameObject);
         }
     }
 
+
+    public int GetCurrentValue()
+    {
+        return currentValue;
+    }
+
+
+    public void SetCurrentValue(int value)
+    {
+        isDead = currentValue <= 0;
+        currentValue = value;
+    }
+
+
+    public void SetIsImmune(bool value)
+    {
+        isImmune = value;
+    }
+
+
     void Start()
     {
-        timeCuts = new List<int>();
         currentValue = maxValue;
-    }
-
-    void OnEnable()
-    {
-        rewindable = GetComponent<Rewindable>();
-
-        rewindable.OnRewind += OnRewind;
-        rewindable.OnRecord += OnRecord;
-    }
-
-    void OnDisable()
-    {
-        rewindable.OnRewind -= OnRewind;
-        rewindable.OnRecord -= OnRecord;
-    }
-
-    void OnRewind(float time)
-    {
-        var timeCut = timeCuts[timeCuts.Count - 1];
-        currentValue = timeCut;
-        isDead = currentValue < 0;
-        timeCuts.RemoveAt(timeCuts.Count - 1);
-    }
-
-    void OnRecord()
-    {
-        if (rewindable.IsAtMaxCapacity())
-        {
-            timeCuts.RemoveAt(0);
-        }
-        timeCuts.Add(currentValue);
     }
 }

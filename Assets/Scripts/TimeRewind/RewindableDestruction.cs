@@ -32,6 +32,12 @@ public class RewindableDestruction : MonoBehaviour
     }
 
 
+    public bool IsDestroyed()
+    {
+        return isDestroyed;
+    }
+
+
     public void RewindableDestroy()
     {
         if (rewindable.IsRewinding() || isDestroyed) return;
@@ -51,14 +57,12 @@ public class RewindableDestruction : MonoBehaviour
     }
 
 
-    public bool IsDestroyed()
-    {
-        return isDestroyed;
-    }
 
 
     void Reactivate()
     {
+        Debug.Log(Time.fixedTime);
+
         isDestroyed = false;
 
         var meshRenderers = GetComponentsInChildren<MeshRenderer>();
