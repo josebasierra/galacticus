@@ -5,7 +5,7 @@ public class RewindableHealth
     Rewindable rewindable;
     Health health;
 
-    LimitedStack<int> healthRegister;
+    LimitedStack<float> healthRegister;
 
 
     public RewindableHealth(Rewindable _rewindable, Health _health)
@@ -13,7 +13,7 @@ public class RewindableHealth
         rewindable = _rewindable;
         health = _health;
 
-        healthRegister = new LimitedStack<int>(rewindable.MaxCapacity());
+        healthRegister = new LimitedStack<float>(rewindable.MaxCapacity());
 
         rewindable.OnRewind += OnRewind;
         rewindable.OnRecord += OnRecord;

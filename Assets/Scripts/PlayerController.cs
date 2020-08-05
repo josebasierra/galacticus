@@ -5,108 +5,114 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] Weapon mainWeapon;
-    [SerializeField] Weapon secondaryWeapon;
-    [SerializeField] GlobalRewinder globalRewinder;
+    [SerializeField] GameObject mainAttackObject;
+    [SerializeField] GameObject secondaryAttackObject;
+    [SerializeField] GameObject mainSkillObject;
+
+    [SerializeField] float energyConsumptionPerSecond;
+
+    IItem mainAttackItem;
+    IItem secondaryAttackItem;
+    IItem mainSkillItem;
 
     BasicMovement basicMovement;
+    Health health;
+    Energy energy;
+    Rewindable rewindable;
 
     bool jump, mainAttack, secondaryAttack, mainSkill;
     Vector2 moveDirection;
 
-    Rewindable rewindable;
 
     void Start()
-    {  
-        rewindable = GetComponent<Rewindable>();
+    {
         basicMovement = GetComponent<BasicMovement>();
+        health = GetComponent<Health>();
+        energy = GetComponent<Energy>();
+        rewindable = GetComponent<Rewindable>();
+
+
+        if (mainAttackObject != null) mainAttackItem = mainAttackObject.GetComponent<IItem>();
+        if (secondaryAttackObject != null) secondaryAttackItem = secondaryAttackObject.GetComponent<IItem>();
+        if (mainSkillObject != null) mainSkillItem = mainSkillObject.GetComponent<IItem>();
+
+        jump = false;
+        mainAttack = false;
+        secondaryAttack = false;
+        mainSkill = false;
+        moveDirection = Vector2.zero;
     }
 
 
     void FixedUpdate()
     {
-        if (rewindable.IsRewinding())
+        if (rewindable.IsRewinding() || health.IsDead())
         {
             //TODO: FIX
             basicMovement.SetMoveDirection(Vector2.zero);
             basicMovement.SetJump(false);
-            mainWeapon.Activate(false);
-            secondaryWeapon.Activate(false);
+            mainAttackItem.Activate(false);
+            secondaryAttackItem.Activate(false);
         }
         else
         {
+            //aim
             var mouseScreenPoint = Mouse.current.position.ReadValue();
             var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
 
             Vector2 lookDirection = (mouseScreenPoint - (Vector2)playerScreenPoint).normalized;
 
             transform.forward = new Vector3(lookDirection.x, 0, lookDirection.y);
+
+            //actions
+            basicMovement.SetJump(jump);
+            basicMovement.SetMoveDirection(moveDirection);
+
+            mainAttackItem.Activate(mainAttack);
+            secondaryAttackItem.Activate(secondaryAttack);
         }
 
-        //basicMovement.SetJump(jump);
-        //basicMovement.SetMoveDirection(moveDirection);
-        //mainWeapon.Activate(mainAttack);
-        //secondaryWeapon.Activate(secondaryAttack);
-        //globalRewinder.Activate(mainSkill);
+        //if (mainSkill)
+        //{
+        //    energy.Consume(energyConsumptionPerSecond * Time.fixedDeltaTime);
+        //}
+        mainSkillItem.Activate(mainSkill);
     }
 
 
     public void OnMove(InputValue value)
     {
-        if (rewindable.IsRewinding())
-        {
-            return;
-        }
-
-        GetComponent<BasicMovement>().SetMoveDirection(value.Get<Vector2>());
+        moveDirection = value.Get<Vector2>();
     }
 
 
     public void OnJump(InputValue inputValue)
     {
-        if (rewindable.IsRewinding())
-        {
-            return;
-        }
-
-        bool value = inputValue.Get<float>() > 0;
-        GetComponent<BasicMovement>().SetJump(value);
+        jump = inputValue.Get<float>() > 0;
     }
 
 
     public void OnMainAttack(InputValue inputValue)
     {
-        if (rewindable.IsRewinding())
-        {
-            return;
-        }
-
-        bool value = inputValue.Get<float>() > 0;
-        mainWeapon.Activate(value);
+        mainAttack = inputValue.Get<float>() > 0;
     }
+
 
     public void OnSecondaryAttack(InputValue inputValue)
     {
-        //if (rewindable.IsRewinding())
-        //{
-        //    return;
-        //}
-
-        //bool value = inputValue.Get<float>() > 0;
-        //secondaryWeapon.Activate(value);
+        secondaryAttack = inputValue.Get<float>() > 0;
     }
 
 
     public void OnMainSkill(InputValue inputValue)
     {
-        bool value = inputValue.Get<float>() > 0;
-        globalRewinder.Activate(value);
+        mainSkill = inputValue.Get<float>() > 0;
     }
 
 
     public void OnSecondarySkill()
     {
-        RewindObjectUnderMouse();
+        //RewindObjectUnderMouse();
     }
 
 

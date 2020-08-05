@@ -42,6 +42,15 @@ public class AudioComponent : MonoBehaviour
     }
 
 
+    public void Stop(AudioClip clip)
+    {
+        if (clipToSource.TryGetValue(clip, out AudioSource source))
+        {
+            source.Stop();
+        }
+    }
+
+
     public AudioSource Source(AudioClip clip)
     {
         return clipToSource[clip];

@@ -5,8 +5,8 @@ using System;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] int maxValue;
-    [SerializeField] int currentValue;
+    [SerializeField] float maxValue;
+    [SerializeField] float currentValue;
     [SerializeField] GameObject deathEffect;
 
 
@@ -15,7 +15,7 @@ public class Health : MonoBehaviour
     bool isImmune = false;
 
 
-    public void TakeDamage(int value)
+    public void TakeDamage(float value)
     {
         var rewindable = GetComponent<Rewindable>();
         if (rewindable != null && rewindable.IsRewinding()) return;
@@ -36,14 +36,23 @@ public class Health : MonoBehaviour
         }
     }
 
+    public bool IsDead()
+    {
+        return isDead;
+    }
 
-    public int GetCurrentValue()
+    public float GetCurrentValue()
     {
         return currentValue;
     }
 
+    public float GetMaxValue()
+    {
+        return maxValue;
+    }
 
-    public void SetCurrentValue(int value)
+
+    public void SetCurrentValue(float value)
     {
         isDead = currentValue <= 0;
         currentValue = value;

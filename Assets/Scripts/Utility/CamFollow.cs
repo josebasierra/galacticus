@@ -20,7 +20,12 @@ public class CamFollow : MonoBehaviour
     {
         float angle = transform.rotation.eulerAngles.x * Mathf.Deg2Rad;
         offset = new Vector3(0, -Mathf.Sin(angle) * distanceToTarget, Mathf.Cos(angle) * distanceToTarget);
-        Debug.Log(offset);
+        
+        if (target == null)
+        {
+            var playerObject = GameObject.FindGameObjectWithTag("Player");
+            if (playerObject != null) target = playerObject.transform;
+        }
     }
 
 
