@@ -12,10 +12,12 @@ public class Rewindable : MonoBehaviour
 
     static List<Rewindable> instances;
 
-    RewindableDestruction rewindableDestruction;
+    [HideInInspector] public RewindableDestruction rewindableDestruction;
+
     RewindableRigidbody rewindableRigidbody;
     RewindableHealth rewindableHealth;
     RewindablePartSystem rewindableParticleSystem;
+    RewindableAudio rewindableAudio;
 
     Highlighter highlighter;
 
@@ -29,6 +31,8 @@ public class Rewindable : MonoBehaviour
 
     void Start()
     {
+        rewindableDestruction = gameObject.AddComponent<RewindableDestruction>();
+
         var rigidbody = GetComponent<Rigidbody>();
         if (rigidbody != null)
         {
@@ -47,7 +51,11 @@ public class Rewindable : MonoBehaviour
             rewindableParticleSystem = new RewindablePartSystem(this, pSystem);
         }
 
-        rewindableDestruction = gameObject.AddComponent<RewindableDestruction>();
+        var audioComponent = GetComponent<AudioComponent>();
+        if (audioComponent != null)
+        {
+            rewindableAudio = new RewindableAudio(this, audioComponent);
+        }
 
         highlighter = gameObject.AddComponent<Highlighter>();
 
@@ -146,7 +154,6 @@ public class Rewindable : MonoBehaviour
             
             if (recordedSeconds < maximumRewindSeconds)
             {
-                Debug.Log("Rewindable: " + Time.fixedTime.ToString());
                 Destroy(this.gameObject);
             }
             return;

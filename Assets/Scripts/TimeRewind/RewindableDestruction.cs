@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class RewindableDestruction : MonoBehaviour
 {
     bool isDestroyed = false;
     float timeOfDestruction = -1;
+    float timeDestroyed = 0;
+
+    public Action OnRewindableDestroy, OnRewindableReactivate;
 
     Rewindable rewindable;
 
@@ -14,21 +18,20 @@ public class RewindableDestruction : MonoBehaviour
     {
         rewindable = GetComponent<Rewindable>();
         rewindable.OnRewind += OnRewind;
+        rewindable.OnRecord += OnRecord;
     }
 
 
     void OnDisable()
     {
         rewindable.OnRewind -= OnRewind;
+        rewindable.OnRecord -= OnRecord;
     }
 
 
     void FixedUpdate()
     {
-        if (isDestroyed && Time.fixedTime - timeOfDestruction > rewindable.GetMaximumRewindSeconds())
-        {
-            Destroy(this.gameObject);
-        }
+
     }
 
 
@@ -45,15 +48,25 @@ public class RewindableDestruction : MonoBehaviour
         isDestroyed = true;
         timeOfDestruction = Time.fixedTime;
 
-        //TODO: Check components
+        OnRewindableDestroy?.Invoke();
 
         var meshRenderers = GetComponentsInChildren<MeshRenderer>();
         foreach(var meshRenderer in meshRenderers)
         {
             meshRenderer.enabled = false;
         }
-        GetComponent<Collider>().enabled = false;
-        GetComponent<Rigidbody>().isKinematic = true;
+
+        var colliders = GetComponentsInChildren<Collider>();
+        foreach(var collider in colliders)
+        {
+            collider.enabled = false;
+        }
+
+        var rigidbodies = GetComponentsInChildren<Rigidbody>();
+        foreach(var rigidbody in rigidbodies)
+        {
+            rigidbody.isKinematic = true;
+        }
     }
 
 
@@ -61,17 +74,28 @@ public class RewindableDestruction : MonoBehaviour
 
     void Reactivate()
     {
-        Debug.Log(Time.fixedTime);
-
         isDestroyed = false;
+        timeDestroyed = 0;
+
+        OnRewindableReactivate?.Invoke();
 
         var meshRenderers = GetComponentsInChildren<MeshRenderer>();
         foreach (var meshRenderer in meshRenderers)
         {
             meshRenderer.enabled = true;
         }
-        GetComponent<Collider>().enabled = true;
-        GetComponent<Rigidbody>().isKinematic = false;
+
+        var colliders = GetComponentsInChildren<Collider>();
+        foreach (var collider in colliders)
+        {
+            collider.enabled = true;
+        }
+
+        var rigidbodies = GetComponentsInChildren<Rigidbody>();
+        foreach (var rigidbody in rigidbodies)
+        {
+            rigidbody.isKinematic = false;
+        }
     }
 
 
@@ -86,6 +110,18 @@ public class RewindableDestruction : MonoBehaviour
         if (isDestroyed && timeOfDestruction == timeOfRewind)
         {
             Reactivate();
+        }
+    }
+
+    void OnRecord()
+    {
+        if (isDestroyed)
+        {
+            timeDestroyed += Time.fixedDeltaTime;
+            if (timeDestroyed > rewindable.GetMaximumRewindSeconds())
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 }

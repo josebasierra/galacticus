@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!114 &5003897703819527814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxValue: 2
   currentValue: 0
-  deathEffect: {fileID: 9101667168483763348, guid: 1494d1f142b2e7f4784b79511e0cca14, type: 3}
+  deathEffect: {fileID: 9101667168483763348, guid: 84ea1f6b06d44ce478510b01f788b526, type: 3}
 --- !u!114 &5003897703819527808
 MonoBehaviour:
   m_ObjectHideFlags: 0

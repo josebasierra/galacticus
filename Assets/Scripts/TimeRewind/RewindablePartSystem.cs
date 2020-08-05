@@ -30,6 +30,8 @@ public class RewindablePartSystem
 
         rewindable.OnRewind += OnRewind;
         rewindable.OnRecord += OnRecord;
+        rewindable.rewindableDestruction.OnRewindableDestroy += OnRewindableDestroy;
+        rewindable.rewindableDestruction.OnRewindableReactivate += OnRewindableReactivate;
 
         pSystemRenderer = pSystem.GetComponent<ParticleSystemRenderer>();
         defaultMaterial = pSystemRenderer.material;
@@ -72,6 +74,16 @@ public class RewindablePartSystem
         particlesRegister.Push(timeCutParticles);
 
         pSystemRenderer.sharedMaterial = defaultMaterial;
+    }
+
+    void OnRewindableDestroy()
+    {
+        pSystemRenderer.enabled = false;
+    }
+
+    void OnRewindableReactivate()
+    {
+        pSystemRenderer.enabled = true;
     }
 
   

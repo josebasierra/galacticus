@@ -20,8 +20,9 @@ public class Health : MonoBehaviour
         var rewindable = GetComponent<Rewindable>();
         if (rewindable != null && rewindable.IsRewinding()) return;
 
-        currentValue -= value;
-        if (currentValue <= 0 && !isDead)
+        //fuck time rewinding shit fucking all components
+        if(!isDead) currentValue -= value;
+        if (!isDead && currentValue <= 0 || (rewindable != null && !rewindable.IsDestroyed() && isDead))
         {
             isDead = true;
             OnDeath?.Invoke();

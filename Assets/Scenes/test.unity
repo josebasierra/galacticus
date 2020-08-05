@@ -144,7 +144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1011191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1011192
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -283,7 +284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &7853815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,6 +298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &7853816
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -422,7 +424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &12142575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,6 +438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &12142576
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -561,7 +564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &13749896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &13749897
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -700,7 +704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &15843221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,6 +718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &15843222
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -839,7 +844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &16792224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -853,6 +858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &16792225
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -978,7 +984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &20078233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -992,6 +998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &20078234
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -1212,7 +1219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &30143663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1226,6 +1233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &30143664
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -1351,7 +1359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &32695236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,6 +1373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &32695237
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -1490,7 +1499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &36697114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1504,6 +1513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &36697115
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -1629,7 +1639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &48282410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1643,6 +1653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &48282411
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -1768,7 +1779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &66282497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1782,6 +1793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &66282498
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -1907,7 +1919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &69551879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1921,6 +1933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &69551880
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -2046,7 +2059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &73833552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2060,6 +2073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &73833553
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -2190,7 +2204,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &89182068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2204,6 +2218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &89182069
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -2329,7 +2344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &92783307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2343,6 +2358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &92783308
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -2468,7 +2484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &93487818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2482,6 +2498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &93487819
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -2607,7 +2624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &96019502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2621,6 +2638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &96019503
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -2746,7 +2764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &98207398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2760,6 +2778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &98207399
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -2885,7 +2904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &110106967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2899,6 +2918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &110106968
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -3024,7 +3044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &112409005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3038,6 +3058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &112409006
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -3163,7 +3184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &112991822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3177,6 +3198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &112991823
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -3302,7 +3324,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &115456463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3316,6 +3338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &115456464
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -3441,7 +3464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &115599556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3455,6 +3478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &115599557
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -3580,7 +3604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &122938891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3594,6 +3618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &122938892
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -3719,7 +3744,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &126780201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3733,6 +3758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &126780202
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -3858,7 +3884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &128813208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3872,6 +3898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &128813209
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -3997,7 +4024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &129523196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4011,6 +4038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &129523197
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -4136,7 +4164,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &131713072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4150,6 +4178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &131713073
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -4275,7 +4304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &141389701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4289,6 +4318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &141389702
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -4414,7 +4444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &144313489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4428,6 +4458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &144313490
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -4553,7 +4584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &147192875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4567,6 +4598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &147192876
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -4692,7 +4724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &157796851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4706,6 +4738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &157796852
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -4831,7 +4864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &159434885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4845,6 +4878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &159434886
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -4970,7 +5004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &161529787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4984,6 +5018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &161529788
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -5109,7 +5144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &162156159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5123,6 +5158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &162156160
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -5248,7 +5284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &167035889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5262,6 +5298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &167035890
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -5387,7 +5424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &167783548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5401,6 +5438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &167783549
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -5526,7 +5564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &171129570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5540,6 +5578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &171129571
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -5665,7 +5704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &171858442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5679,6 +5718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &171858443
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -5804,7 +5844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &172256303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5818,6 +5858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &172256304
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -5943,7 +5984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &172623562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5957,6 +5998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &172623563
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -6082,7 +6124,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &179026181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6096,6 +6138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &179026182
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -6221,7 +6264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &179033809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6235,6 +6278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &179033810
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -6360,7 +6404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &180644689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6374,6 +6418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &180644690
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -6499,7 +6544,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &181902061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6513,6 +6558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &181902062
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -6638,7 +6684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &189706701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6652,6 +6698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &189706702
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -6792,6 +6839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxValue: 10
   currentValue: 0
+  deathEffect: {fileID: 0}
 --- !u!114 &191568115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6805,6 +6853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!65 &191568116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6918,7 +6967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &194542963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6932,6 +6981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &194542964
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -7057,7 +7107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &195255833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7071,6 +7121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &195255834
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -7196,7 +7247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &200601185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7210,6 +7261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &200601186
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -7335,7 +7387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &204244439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7349,6 +7401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &204244440
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -7474,7 +7527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &207867238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7488,6 +7541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &207867239
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -7613,7 +7667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &212408261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7627,6 +7681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &212408262
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -7752,7 +7807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &222683917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7766,6 +7821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &222683918
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -7891,7 +7947,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &228675201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7905,6 +7961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &228675202
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -8030,7 +8087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &229465650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8044,6 +8101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &229465651
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -8169,7 +8227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &229899540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8183,6 +8241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &229899541
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -8308,7 +8367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &231877804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8322,6 +8381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &231877805
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -8447,7 +8507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &233707184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8461,6 +8521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &233707185
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -8586,7 +8647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &238191682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8600,6 +8661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &238191683
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -8725,7 +8787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &238325658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8739,6 +8801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &238325659
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -8864,7 +8927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &238859467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8878,6 +8941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &238859468
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -9003,7 +9067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &241746496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9017,6 +9081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &241746497
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -9142,7 +9207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &244628864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9156,6 +9221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &244628865
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -9281,7 +9347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &245179369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9295,6 +9361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &245179370
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -9420,7 +9487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &263184851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9434,6 +9501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &263184852
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -9559,7 +9627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &270774267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9573,6 +9641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &270774268
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -9698,7 +9767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &272541372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9712,6 +9781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &272541373
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -9837,7 +9907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &279763424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9851,6 +9921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &279763425
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -9976,7 +10047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &280942470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9990,6 +10061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &280942471
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -10115,7 +10187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &283049990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10129,6 +10201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &283049991
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -10254,7 +10327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &284676403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10268,6 +10341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &284676404
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -10393,7 +10467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &286192094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10407,6 +10481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &286192095
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -10532,7 +10607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &294228142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10546,6 +10621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &294228143
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -10671,7 +10747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &297119309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10685,6 +10761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &297119310
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -10810,7 +10887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &298940288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10824,6 +10901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &298940289
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -10949,7 +11027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &308778047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10963,6 +11041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &308778048
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -11088,7 +11167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &308896172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11102,6 +11181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &308896173
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -11227,7 +11307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &314654874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11241,6 +11321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &314654875
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -11366,7 +11447,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &321153319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11380,6 +11461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &321153320
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -11505,7 +11587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &321819951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11519,6 +11601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &321819952
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -11644,7 +11727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &328868084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11658,6 +11741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &328868085
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -11783,7 +11867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &337316737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11797,6 +11881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &337316738
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -11922,7 +12007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &340314819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11936,6 +12021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &340314820
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -12061,7 +12147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &343520684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12075,6 +12161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &343520685
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -12200,7 +12287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &347431341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12214,6 +12301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &347431342
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -12339,7 +12427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &355725521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12353,6 +12441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &355725522
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -12478,7 +12567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &363787426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12492,6 +12581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &363787427
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -12617,7 +12707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &365810504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12631,6 +12721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &365810505
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -12756,7 +12847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &368015667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12770,6 +12861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &368015668
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -12895,7 +12987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &375014286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12909,6 +13001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &375014287
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -13034,7 +13127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &385426799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13048,6 +13141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &385426800
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -13173,7 +13267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &388958584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13187,6 +13281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &388958585
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -13312,7 +13407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &393568362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13326,6 +13421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &393568363
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -13451,7 +13547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &393780231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13465,6 +13561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &393780232
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -13590,7 +13687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &398712260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13604,6 +13701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &398712261
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -13729,7 +13827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &401857614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13743,6 +13841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &401857615
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -13868,7 +13967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &411233369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13882,6 +13981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &411233370
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -14007,7 +14107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &413524080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14021,6 +14121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &413524081
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -14160,6 +14261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!114 &416844430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14174,6 +14276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxValue: 10
   currentValue: 0
+  deathEffect: {fileID: 0}
 --- !u!65 &416844431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14287,7 +14390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &436900013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14301,6 +14404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &436900014
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -14426,7 +14530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &439262414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14440,6 +14544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &439262415
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -14565,7 +14670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &440098352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14579,6 +14684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &440098353
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -14704,7 +14810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &443652969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14718,6 +14824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &443652970
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -14843,7 +14950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &451192420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14857,6 +14964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &451192421
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -14982,7 +15090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &454342450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14996,6 +15104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &454342451
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -15121,7 +15230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &454966558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15135,6 +15244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &454966559
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -15260,7 +15370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &456319172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15274,6 +15384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &456319173
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -15399,7 +15510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &478203956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15413,6 +15524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &478203957
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -15538,7 +15650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &487891318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15552,6 +15664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &487891319
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -15677,7 +15790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &496101260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15691,6 +15804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &496101261
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -15816,7 +15930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &501357156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15830,6 +15944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &501357157
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -15955,7 +16070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &517135489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15969,6 +16084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &517135490
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -16094,7 +16210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &521250335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16108,6 +16224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &521250336
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -16233,7 +16350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &521982603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16247,6 +16364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &521982604
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -16372,7 +16490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &523023733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16386,6 +16504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &523023734
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -16511,7 +16630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &527634977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16525,6 +16644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &527634978
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -16650,7 +16770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &537560549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16664,6 +16784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &537560550
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -16789,7 +16910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &547329882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16803,6 +16924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &547329883
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -16928,7 +17050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &548731975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16942,6 +17064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &548731976
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -17067,7 +17190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &552650107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17081,6 +17204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &552650108
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -17206,7 +17330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &554727656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17220,6 +17344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &554727657
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -17345,7 +17470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &571967646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17359,6 +17484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &571967647
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -17484,7 +17610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &580794428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17498,6 +17624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &580794429
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -17623,7 +17750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &596316833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17637,6 +17764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &596316834
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -17762,7 +17890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &598859400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17776,6 +17904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &598859401
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -17901,7 +18030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &600502957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17915,6 +18044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &600502958
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -18040,7 +18170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &601235499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18054,6 +18184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &601235500
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -18179,7 +18310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &603370918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18193,6 +18324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &603370919
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -18318,7 +18450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &605119039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18332,6 +18464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &605119040
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -18457,7 +18590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &611989621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18471,6 +18604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &611989622
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -18596,7 +18730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &615173918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18610,6 +18744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &615173919
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -18735,7 +18870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &618374365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18749,6 +18884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &618374366
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -18874,7 +19010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &621638945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18888,6 +19024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &621638946
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -19013,7 +19150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &623596429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19027,6 +19164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &623596430
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -19152,7 +19290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &626871054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19166,6 +19304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &626871055
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -19291,7 +19430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &629228558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19305,6 +19444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &629228559
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -19430,7 +19570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &632059113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19444,6 +19584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &632059114
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -19569,7 +19710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &632357888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19583,6 +19724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &632357889
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -19708,7 +19850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &634308985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19722,6 +19864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &634308986
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -19847,7 +19990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &638508176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19861,6 +20004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &638508177
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -19986,7 +20130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &641175721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20000,6 +20144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &641175722
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -20125,7 +20270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &641731222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20139,6 +20284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &641731223
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -20264,7 +20410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &642209458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20278,6 +20424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &642209459
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -20403,7 +20550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &642370135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20417,6 +20564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &642370136
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -20542,7 +20690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &646082512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20556,6 +20704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &646082513
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -20681,7 +20830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &646207720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20695,6 +20844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &646207721
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -20820,7 +20970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &648227168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20834,6 +20984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &648227169
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -20959,7 +21110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &652127500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20973,6 +21124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &652127501
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -21098,7 +21250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &655223173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21112,6 +21264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &655223174
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -21237,7 +21390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &656428523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21251,6 +21404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &656428524
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -21376,7 +21530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &658512684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21390,6 +21544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &658512685
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -21515,7 +21670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &659855295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21529,6 +21684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &659855296
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -21654,7 +21810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &661239525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21668,6 +21824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &661239526
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -21793,7 +21950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &671591555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21807,6 +21964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &671591556
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -21932,7 +22090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &676203415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21946,6 +22104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &676203416
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -22071,7 +22230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &676900605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22085,6 +22244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &676900606
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -22210,7 +22370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &677182348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22224,6 +22384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &677182349
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -22349,7 +22510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &679134612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22363,6 +22524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &679134613
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -22488,7 +22650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &680376173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22502,6 +22664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &680376174
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -22627,7 +22790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &684724839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22641,6 +22804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &684724840
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -22766,7 +22930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &694085376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22780,6 +22944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &694085377
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -22905,7 +23070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &703731326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22919,6 +23084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &703731327
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -23044,7 +23210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &704559519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23058,6 +23224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &704559520
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -23183,7 +23350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &704822810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23197,6 +23364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &704822811
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -23322,7 +23490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &715596420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23336,6 +23504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &715596421
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -23461,7 +23630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &721067293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23475,6 +23644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &721067294
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -23600,7 +23770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &726915684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23614,6 +23784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &726915685
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -23739,7 +23910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &728114508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23753,6 +23924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &728114509
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -23878,7 +24050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &741368393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23892,6 +24064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &741368394
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -24017,7 +24190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &748528482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24031,6 +24204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &748528483
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -24156,7 +24330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &754481455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24170,6 +24344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &754481456
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -24295,7 +24470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &754795475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24309,6 +24484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &754795476
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -24434,7 +24610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &758993955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24448,6 +24624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &758993956
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -24573,7 +24750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &760601173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24587,6 +24764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &760601174
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -24712,7 +24890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &766183038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24726,6 +24904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &766183039
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -24851,7 +25030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &780028260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24865,6 +25044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &780028261
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -24990,7 +25170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &783741112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25004,6 +25184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &783741113
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -25129,7 +25310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &790425333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25143,6 +25324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &790425334
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -25268,7 +25450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &799615205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25282,6 +25464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &799615206
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -25407,7 +25590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &799704041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25421,6 +25604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &799704042
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -25546,7 +25730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &801715481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25560,6 +25744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &801715482
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -25685,7 +25870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &802065059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25699,6 +25884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &802065060
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -25824,7 +26010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &802673415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25838,6 +26024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &802673416
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -25963,7 +26150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &807596101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25977,6 +26164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &807596102
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -26102,7 +26290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &816288958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26116,6 +26304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &816288959
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -26241,7 +26430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &821254738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26255,6 +26444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &821254739
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -26380,7 +26570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &823494764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26394,6 +26584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &823494765
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -26519,7 +26710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &830064407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26533,6 +26724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &830064408
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -26658,7 +26850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &836309253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26672,6 +26864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &836309254
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -26797,7 +26990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &837525352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26811,6 +27004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &837525353
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -26936,7 +27130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &843153335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26950,6 +27144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &843153336
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -27075,7 +27270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &855610745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27089,6 +27284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &855610746
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -27214,7 +27410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &857148601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27228,6 +27424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &857148602
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -27353,7 +27550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &859405658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27367,6 +27564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &859405659
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -27492,7 +27690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &859735818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27506,6 +27704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &859735819
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -27631,7 +27830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &868486368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27645,6 +27844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &868486369
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -27770,7 +27970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &869430530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27784,6 +27984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &869430531
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -27909,7 +28110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &873737532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27923,6 +28124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &873737533
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -28048,7 +28250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &888013299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28062,6 +28264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &888013300
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -28187,7 +28390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &888411507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28201,6 +28404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &888411508
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -28326,7 +28530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &891719512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28340,6 +28544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &891719513
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -28465,7 +28670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &897876878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28479,6 +28684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &897876879
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -28604,7 +28810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &897996868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28618,6 +28824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &897996869
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -28743,7 +28950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &899286997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28757,6 +28964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &899286998
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -28882,7 +29090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &904820526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28896,6 +29104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &904820527
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -29021,7 +29230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &905045463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29035,6 +29244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &905045464
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -29160,7 +29370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &906567731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29174,6 +29384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &906567732
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -29299,7 +29510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &907229940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29313,6 +29524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &907229941
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -29438,7 +29650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &920804772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29452,6 +29664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &920804773
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -29577,7 +29790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &928197981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29591,6 +29804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &928197982
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -29716,7 +29930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &929264703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29730,6 +29944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &929264704
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -29855,7 +30070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &930266529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29869,6 +30084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &930266530
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -29994,7 +30210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &930404585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30008,6 +30224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &930404586
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -30133,7 +30350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &937088368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30147,6 +30364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &937088369
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -30272,7 +30490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &944141675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30286,6 +30504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &944141676
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -30411,7 +30630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &951044848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30425,6 +30644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &951044849
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -30550,7 +30770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &957054877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30564,6 +30784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &957054878
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -30689,7 +30910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &961977740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30703,6 +30924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &961977741
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -30828,7 +31050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &966721630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30842,6 +31064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &966721631
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -30967,7 +31190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &976541361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30981,6 +31204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &976541362
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -31106,7 +31330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &977970271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31120,6 +31344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &977970272
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -31245,7 +31470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &978307132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31259,6 +31484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &978307133
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -31384,7 +31610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &981501539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31398,6 +31624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &981501540
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -31523,7 +31750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &981588882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31537,6 +31764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &981588883
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -31662,7 +31890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &983350801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31676,6 +31904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &983350802
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -31801,7 +32030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &996067247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31815,6 +32044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &996067248
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -31940,7 +32170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &996589842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31954,6 +32184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &996589843
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -32079,7 +32310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &997350371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32093,6 +32324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &997350372
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -32218,7 +32450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &997564941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32232,6 +32464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &997564942
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -32357,7 +32590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1001082230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32371,6 +32604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1001082231
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -32496,7 +32730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1004597848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32510,6 +32744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1004597849
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -32635,7 +32870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1010377331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32649,6 +32884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1010377332
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -32774,7 +33010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1015469328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32788,6 +33024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1015469329
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -32913,7 +33150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1026348317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32927,6 +33164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1026348318
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -33052,7 +33290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1038708105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33066,6 +33304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1038708106
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -33191,7 +33430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1039951151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33205,6 +33444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1039951152
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -33330,7 +33570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1044385114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33344,6 +33584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1044385115
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -33469,7 +33710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1047794478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33483,6 +33724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1047794479
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -33608,7 +33850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1049670352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33622,6 +33864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1049670353
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -33747,7 +33990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1053914918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33761,6 +34004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1053914919
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -33886,7 +34130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1060380363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33900,6 +34144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1060380364
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -34025,7 +34270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1066548217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34039,6 +34284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1066548218
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -34164,7 +34410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1066630377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34178,6 +34424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1066630378
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -34303,7 +34550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1074018419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34317,6 +34564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1074018420
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -34456,6 +34704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1084102643
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -34464,7 +34713,7 @@ ConstantForce:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084102641}
   m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: -5}
+  m_Force: {x: -10, y: 0, z: 0}
   m_RelativeForce: {x: 0, y: 0, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
@@ -34554,7 +34803,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084102641}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1899986, y: 1.65, z: 21.68}
+  m_LocalPosition: {x: -1.7, y: 1.65, z: 7.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -34581,7 +34830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1090129038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34595,6 +34844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1090129039
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -34720,7 +34970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1096873406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34734,6 +34984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1096873407
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -34859,7 +35110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1099022082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34873,6 +35124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1099022083
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -34998,7 +35250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1106052609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35012,6 +35264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1106052610
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -35137,7 +35390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1109145454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35151,6 +35404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1109145455
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -35276,7 +35530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1110442380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35290,6 +35544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1110442381
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -35415,7 +35670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1112531843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35429,6 +35684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1112531844
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -35554,7 +35810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1115584732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35568,6 +35824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1115584733
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -35693,7 +35950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1121944495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35707,6 +35964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1121944496
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -35832,7 +36090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1123525511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35846,6 +36104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1123525512
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -35971,7 +36230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1123764133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35985,6 +36244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1123764134
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -36110,7 +36370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1143172640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36124,6 +36384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1143172641
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -36249,7 +36510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1146439482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36263,6 +36524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1146439483
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -36388,7 +36650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1146690320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36402,6 +36664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1146690321
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -36527,7 +36790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1149980737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36541,6 +36804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1149980738
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -36666,7 +36930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1161328397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36680,6 +36944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1161328398
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -36805,7 +37070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1163820606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36819,6 +37084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1163820607
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -36944,7 +37210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1164393186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36958,6 +37224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1164393187
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -37083,7 +37350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1170648711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37097,6 +37364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1170648712
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -37222,7 +37490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1173304813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37236,6 +37504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1173304814
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -37361,7 +37630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1181524761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37375,6 +37644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1181524762
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -37500,7 +37770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1182352463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37514,6 +37784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1182352464
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -37639,7 +37910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1184909969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37653,6 +37924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1184909970
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -37778,7 +38050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1185648638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37792,6 +38064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1185648639
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -37917,7 +38190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1202637891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37931,6 +38204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1202637892
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -38056,7 +38330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1202941343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38070,6 +38344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1202941344
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -38195,7 +38470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1204597188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38209,6 +38484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1204597189
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -38334,7 +38610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1212888325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38348,6 +38624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1212888326
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -38473,7 +38750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1213009476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38487,6 +38764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1213009477
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -38612,7 +38890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1213745036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38626,6 +38904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1213745037
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -38751,7 +39030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1216031845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38765,6 +39044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1216031846
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -38890,7 +39170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1217354677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38904,6 +39184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1217354678
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -39029,7 +39310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1218496560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39043,6 +39324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1218496561
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -39168,7 +39450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1227549658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39182,6 +39464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1227549659
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -39307,7 +39590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1231583910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39321,6 +39604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1231583911
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -39446,7 +39730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1235217335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39460,6 +39744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1235217336
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -39585,7 +39870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1235709042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39599,6 +39884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1235709043
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -39724,7 +40010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1239625031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39738,6 +40024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1239625032
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -39863,7 +40150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1242874024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39877,6 +40164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1242874025
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -40002,7 +40290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1250544975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40016,6 +40304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1250544976
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -40141,7 +40430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1258044931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40155,6 +40444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1258044932
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -40280,7 +40570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1263213761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40294,6 +40584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1263213762
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -40419,7 +40710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1272727013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40433,6 +40724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1272727014
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -40558,7 +40850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1279607311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40572,6 +40864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1279607312
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -40697,7 +40990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1289678258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40711,6 +41004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1289678259
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -40836,7 +41130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1294353695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40850,6 +41144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1294353696
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -40975,7 +41270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1296465876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40989,6 +41284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1296465877
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -41114,7 +41410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1299376392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41128,6 +41424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1299376393
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -41253,7 +41550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1303591155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41267,6 +41564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1303591156
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -41392,7 +41690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1310796967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41406,6 +41704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1310796968
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -41531,7 +41830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1315125725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41545,6 +41844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1315125726
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -41670,7 +41970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1321125761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41684,6 +41984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1321125762
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -41809,7 +42110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1325098934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41823,6 +42124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1325098935
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -41948,7 +42250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1327748612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41962,6 +42264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1327748613
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -42087,7 +42390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1338635797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42101,6 +42404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1338635798
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -42226,7 +42530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1347922540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42240,6 +42544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1347922541
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -42365,7 +42670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1350021238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42379,6 +42684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1350021239
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -42504,7 +42810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1356523301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42518,6 +42824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1356523302
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -42643,7 +42950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1362991520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42657,6 +42964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1362991521
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -42782,7 +43090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1363496454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42796,6 +43104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1363496455
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -42921,7 +43230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1368709401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42935,6 +43244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1368709402
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -43060,7 +43370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1373581065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43074,6 +43384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1373581066
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -43199,7 +43510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1375058976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43213,6 +43524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1375058977
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -43338,7 +43650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1376553032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43352,6 +43664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1376553033
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -43477,7 +43790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1378527456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43491,6 +43804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1378527457
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -43616,7 +43930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1381969793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43630,6 +43944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1381969794
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -43755,7 +44070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1390122259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43769,6 +44084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1390122260
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -43894,7 +44210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1394582570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43908,6 +44224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1394582571
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -44033,7 +44350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1398529800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44047,6 +44364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1398529801
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -44172,7 +44490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1404374021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44186,6 +44504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1404374022
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -44311,7 +44630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1413792106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44325,6 +44644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1413792107
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -44450,7 +44770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1428840100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44464,6 +44784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1428840101
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -44589,7 +44910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1431102082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44603,6 +44924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1431102083
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -44728,7 +45050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1440093201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44742,6 +45064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1440093202
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -44867,7 +45190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1453122755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44881,6 +45204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1453122756
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -45006,7 +45330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1458214181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45020,6 +45344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1458214182
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -45145,7 +45470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1462049789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45159,6 +45484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1462049790
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -45284,7 +45610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1468533763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45298,6 +45624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1468533764
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -45423,7 +45750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1471115106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45437,6 +45764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1471115107
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -45562,7 +45890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1474777814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45576,6 +45904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1474777815
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -45701,7 +46030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1475988454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45715,6 +46044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1475988455
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -45840,7 +46170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1480244372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45854,6 +46184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1480244373
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -45979,7 +46310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1482669772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45993,6 +46324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1482669773
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -46118,7 +46450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1484231348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46132,6 +46464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1484231349
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -46257,7 +46590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1488973587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46271,6 +46604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1488973588
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -46396,7 +46730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1497017778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46410,6 +46744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1497017779
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -46535,7 +46870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1503741095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46549,6 +46884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1503741096
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -46674,7 +47010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1511901997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46688,6 +47024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1511901998
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -46813,7 +47150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1513311168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46827,6 +47164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1513311169
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -46952,7 +47290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1515995849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46966,6 +47304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1515995850
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -47091,7 +47430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1516315166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47105,6 +47444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1516315167
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -47230,7 +47570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1517945136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47244,6 +47584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1517945137
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -47369,7 +47710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1518724054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47383,6 +47724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1518724055
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -47508,7 +47850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1520733471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47522,6 +47864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1520733472
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -47647,7 +47990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1525641451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47661,6 +48004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1525641452
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -47786,7 +48130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1527943224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47800,6 +48144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1527943225
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -47925,7 +48270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1529886830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47939,6 +48284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1529886831
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -48064,7 +48410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1533159247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48078,6 +48424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1533159248
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -48203,7 +48550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1546280975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48217,6 +48564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1546280976
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -48342,7 +48690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1547361430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48356,6 +48704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1547361431
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -48481,7 +48830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1550101711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48495,6 +48844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1550101712
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -48620,7 +48970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1552210836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48634,6 +48984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1552210837
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -48759,7 +49110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1553837310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48773,6 +49124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1553837311
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -48898,7 +49250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1554077347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48912,6 +49264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1554077348
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -49037,7 +49390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1554812381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49051,6 +49404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1554812382
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -49176,7 +49530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1557992447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49190,6 +49544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1557992448
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -49315,7 +49670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1560061145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49329,6 +49684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1560061146
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -49454,7 +49810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1570222953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49468,6 +49824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1570222954
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -49593,7 +49950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1570841007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49607,6 +49964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1570841008
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -49827,7 +50185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1578220948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49841,6 +50199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1578220949
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -49966,7 +50325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1578771201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49980,6 +50339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1578771202
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -50105,7 +50465,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1579112599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50119,6 +50479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1579112600
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -50244,7 +50605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1585426095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50258,6 +50619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1585426096
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -50383,7 +50745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1597220002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50397,6 +50759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1597220003
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -50522,7 +50885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1617761060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50536,6 +50899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1617761061
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -50661,7 +51025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1618095854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50675,6 +51039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1618095855
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -50892,7 +51257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1638968295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50906,6 +51271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1638968296
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -51031,7 +51397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1641421246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51045,6 +51411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1641421247
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -51170,7 +51537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1647994393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51184,6 +51551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1647994394
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -51309,7 +51677,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1648149262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51323,6 +51691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1648149263
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -51448,7 +51817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1651394935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51462,6 +51831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1651394936
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -51587,7 +51957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1652375300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51601,6 +51971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1652375301
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -51726,7 +52097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1655041622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51740,6 +52111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1655041623
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -51865,7 +52237,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1656431749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51879,6 +52251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1656431750
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -52004,7 +52377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1657466890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52018,6 +52391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1657466891
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -52143,7 +52517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1659623826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52157,6 +52531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1659623827
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -52282,7 +52657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1660621788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52296,6 +52671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1660621789
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -52421,7 +52797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1673605378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52435,6 +52811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1673605379
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -52560,7 +52937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1679889726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52574,6 +52951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1679889727
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -52699,7 +53077,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1682369376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52713,6 +53091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1682369377
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -52838,7 +53217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1697210363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52852,6 +53231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1697210364
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -52977,7 +53357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1706529780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52991,6 +53371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1706529781
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -53116,7 +53497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1719784357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53130,6 +53511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1719784358
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -53255,7 +53637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1720929912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53269,6 +53651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1720929913
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -53394,7 +53777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1722825345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53408,6 +53791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1722825346
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -53533,7 +53917,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1728209168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53547,6 +53931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1728209169
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -53672,7 +54057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1732176740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53686,6 +54071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1732176741
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -53811,7 +54197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1748838939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53825,6 +54211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1748838940
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -53950,7 +54337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1751029729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53964,6 +54351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1751029730
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -54089,7 +54477,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1751671460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54103,6 +54491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1751671461
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -54228,7 +54617,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1758874192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54242,6 +54631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1758874193
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -54367,7 +54757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1760198494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54381,6 +54771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1760198495
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -54506,7 +54897,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1768495641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54520,6 +54911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1768495642
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -54645,7 +55037,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1768809620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54659,6 +55051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1768809621
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -54784,7 +55177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1768970170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54798,6 +55191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1768970171
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -54923,7 +55317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1772378734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54937,6 +55331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1772378735
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -55062,7 +55457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1780205393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55076,6 +55471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1780205394
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -55201,7 +55597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1786134262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55215,6 +55611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1786134263
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -55340,7 +55737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1787045833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55354,6 +55751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1787045834
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -55479,7 +55877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1787217793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55493,6 +55891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1787217794
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -55713,7 +56112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1790684893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55727,6 +56126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1790684894
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -55852,7 +56252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1796068734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55866,6 +56266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1796068735
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -55991,7 +56392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1797338179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56005,6 +56406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1797338180
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -56130,7 +56532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1800952164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56144,6 +56546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1800952165
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -56269,7 +56672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1801437303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56283,6 +56686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1801437304
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -56408,7 +56812,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1802703243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56422,6 +56826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1802703244
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -56547,7 +56952,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1805448043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56561,6 +56966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1805448044
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -56686,7 +57092,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1812694020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56700,6 +57106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1812694021
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -56825,7 +57232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1813273525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56839,6 +57246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1813273526
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -56964,7 +57372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1813788656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56978,6 +57386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1813788657
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -57103,7 +57512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1816858515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57117,6 +57526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1816858516
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -57242,7 +57652,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1824469110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57256,6 +57666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1824469111
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -57381,7 +57792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1826289378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57395,6 +57806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1826289379
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -57520,7 +57932,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1839782053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57534,6 +57946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1839782054
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -57659,7 +58072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1840481213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57673,6 +58086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1840481214
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -57798,7 +58212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1847062199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57812,6 +58226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1847062200
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -57937,7 +58352,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1847466345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57951,6 +58366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1847466346
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -58076,7 +58492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1849606090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58090,6 +58506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1849606091
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -58215,7 +58632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1851938121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58229,6 +58646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1851938122
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -58449,7 +58867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1864306526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58463,6 +58881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1864306527
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -58588,7 +59007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1864646177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58602,6 +59021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1864646178
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -58727,7 +59147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1869211725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58741,6 +59161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1869211726
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -58866,7 +59287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1876163035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58880,6 +59301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1876163036
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -59005,7 +59427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1881006914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59019,6 +59441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1881006915
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -59144,7 +59567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1882034174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59158,6 +59581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1882034175
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -59283,7 +59707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1887465951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59297,6 +59721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1887465952
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -59422,7 +59847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1887496575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59436,6 +59861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1887496576
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -59561,7 +59987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1887628228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59575,6 +60001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1887628229
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -59700,7 +60127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1888841427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59714,6 +60141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1888841428
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -59839,7 +60267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1889139451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59853,6 +60281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1889139452
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -59978,7 +60407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1892704789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59992,6 +60421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1892704790
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -60117,7 +60547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1908399614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60131,6 +60561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1908399615
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -60256,7 +60687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1914503975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60270,6 +60701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1914503976
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -60395,7 +60827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1915192361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60409,6 +60841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1915192362
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -60534,7 +60967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1915548955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60548,6 +60981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1915548956
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -60673,7 +61107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1917264497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60687,6 +61121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1917264498
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -60812,7 +61247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1923205875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60826,6 +61261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1923205876
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -60951,7 +61387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1933086211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60965,6 +61401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1933086212
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -61090,7 +61527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1950709778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61104,6 +61541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1950709779
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -61229,7 +61667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1956696918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61243,6 +61681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1956696919
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -61368,7 +61807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1956759460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61382,6 +61821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1956759461
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -61507,7 +61947,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1958067852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61521,6 +61961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1958067853
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -61646,7 +62087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1962431263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61660,6 +62101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1962431264
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -61785,7 +62227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1966945750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61799,6 +62241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1966945751
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -61924,7 +62367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1968124942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61938,6 +62381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1968124943
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -62063,7 +62507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1970407829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62077,6 +62521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1970407830
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -62202,7 +62647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1971530967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62216,6 +62661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1971530968
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -62341,7 +62787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1973521311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62355,6 +62801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1973521312
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -62480,7 +62927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1978859466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62494,6 +62941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1978859467
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -62619,7 +63067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1979104785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62633,6 +63081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1979104786
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -62758,7 +63207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1979566831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62772,6 +63221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1979566832
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -62897,7 +63347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1994254045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62911,6 +63361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1994254046
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -63036,7 +63487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1994945645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63050,6 +63501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &1994945646
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -63175,7 +63627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2017468470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63189,6 +63641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2017468471
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -63314,7 +63767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2023523323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63328,6 +63781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2023523324
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -63453,7 +63907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2026419972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63467,6 +63921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2026419973
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -63592,7 +64047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2035669441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63606,6 +64061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2035669442
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -63731,7 +64187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2037228005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63745,6 +64201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2037228006
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -63870,7 +64327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2046974173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63884,6 +64341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2046974174
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -64009,7 +64467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2054291291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64023,6 +64481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2054291292
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -64148,7 +64607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2061547049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64162,6 +64621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2061547050
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -64287,7 +64747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2062054568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64301,6 +64761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2062054569
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -64426,7 +64887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2064701195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64440,6 +64901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2064701196
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -64565,7 +65027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2073984021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64579,6 +65041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2073984022
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -64704,7 +65167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2078569666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64718,6 +65181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2078569667
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -64843,7 +65307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2079431810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64857,6 +65321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2079431811
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -64982,7 +65447,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2080915173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64996,6 +65461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2080915174
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -65121,7 +65587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2083183393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65135,6 +65601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2083183394
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -65260,7 +65727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2083446132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65274,6 +65741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2083446133
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -65399,7 +65867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2084362422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65413,6 +65881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2084362423
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -65538,7 +66007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2084756958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65552,6 +66021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2084756959
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -65677,7 +66147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2091105531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65691,6 +66161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2091105532
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -65816,7 +66287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2104348697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65830,6 +66301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2104348698
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -65955,7 +66427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2105803011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65969,6 +66441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2105803012
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -66094,7 +66567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2111009462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66108,6 +66581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2111009463
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -66233,7 +66707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2113610745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66247,6 +66721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2113610746
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -66372,7 +66847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2116325825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66386,6 +66861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2116325826
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -66511,7 +66987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2117964008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66525,6 +67001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2117964009
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -66650,7 +67127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2122342305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66664,6 +67141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2122342306
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -66789,7 +67267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2126678131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66803,6 +67281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2126678132
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -66928,7 +67407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2134971339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66942,6 +67421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2134971340
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -67067,7 +67547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2138947526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67081,6 +67561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2138947527
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -67206,7 +67687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2145020606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67220,6 +67701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2145020607
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -67345,7 +67827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2145522490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67359,6 +67841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2145522491
 ConstantForce:
   m_ObjectHideFlags: 0
@@ -67484,7 +67967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2147402261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67498,6 +67981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!75 &2147402262
 ConstantForce:
   m_ObjectHideFlags: 0

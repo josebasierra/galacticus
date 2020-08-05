@@ -11,12 +11,13 @@ public class PlayerController : MonoBehaviour
 
     BasicMovement basicMovement;
 
+    bool jump, mainAttack, secondaryAttack, mainSkill;
+    Vector2 moveDirection;
 
     Rewindable rewindable;
 
     void Start()
-    {
-        //gameObject.AddComponent<PlayerInput>();   
+    {  
         rewindable = GetComponent<Rewindable>();
         basicMovement = GetComponent<BasicMovement>();
     }
@@ -41,6 +42,12 @@ public class PlayerController : MonoBehaviour
 
             transform.forward = new Vector3(lookDirection.x, 0, lookDirection.y);
         }
+
+        //basicMovement.SetJump(jump);
+        //basicMovement.SetMoveDirection(moveDirection);
+        //mainWeapon.Activate(mainAttack);
+        //secondaryWeapon.Activate(secondaryAttack);
+        //globalRewinder.Activate(mainSkill);
     }
 
 
