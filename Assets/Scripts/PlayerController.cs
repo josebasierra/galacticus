@@ -55,13 +55,8 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            //aim
-            var mouseScreenPoint = Mouse.current.position.ReadValue();
-            var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
-            Vector2 lookDirection = (mouseScreenPoint - (Vector2)playerScreenPoint).normalized;
-            transform.forward = new Vector3(lookDirection.x, 0, lookDirection.y);
+            AimAtMouse();
 
-            //actions
             basicMovement.SetJump(jump);
             basicMovement.SetMoveDirection(moveDirection);
             mainAttackItem.Activate(mainAttack);
@@ -124,21 +119,32 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    void RewindObjectUnderMouse()
+    void AimAtMouse()
+    {
+        var direction = GetAimPosition() - transform.position;
+        direction = new Vector3(direction.x, 0, direction.z);
+
+        transform.forward = direction;
+    }
+
+
+    Vector3 GetAimPosition()
     {
         var screenPoint = Mouse.current.position.ReadValue();
         var ray = Camera.main.ScreenPointToRay(screenPoint);
 
+        LayerMask mask = LayerMask.GetMask("Mouse");
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, mask))
         {
-            var hitObject = hit.transform.gameObject;
-            var rewindable = hitObject.GetComponent<Rewindable>();
-
-            if (rewindable != null)
-            {
-                rewindable.StartRewind(rewindable.GetMaximumRewindSeconds());
-            }
+            return hit.point;
         }
+
+        return new Vector3(0,0,-1);
     }
+
+
+
+
+
 }

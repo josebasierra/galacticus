@@ -6,6 +6,7 @@ public class Win : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        GameManager.Instance().Win();
+        if (other.CompareTag("Player"))
+            GameManager.Instance().Win();
     }
 }
