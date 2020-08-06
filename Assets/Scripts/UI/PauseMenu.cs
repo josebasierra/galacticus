@@ -55,7 +55,7 @@ public class PauseMenu : MonoBehaviour
         if (!isPaused && canPause)
         {
             isPaused = true;
-            GameManager.Instance().Pause();
+            GameManager.Instance().Stop();
             ShowPauseView();
         }
         else if (isPaused && currentView == pauseView)

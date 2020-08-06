@@ -31,7 +31,6 @@ public class PlayerController : MonoBehaviour
         energy = GetComponent<Energy>();
         rewindable = GetComponent<Rewindable>();
 
-
         if (mainAttackObject != null) mainAttackItem = mainAttackObject.GetComponent<IItem>();
         if (secondaryAttackObject != null) secondaryAttackItem = secondaryAttackObject.GetComponent<IItem>();
         if (mainSkillObject != null) mainSkillItem = mainSkillObject.GetComponent<IItem>();
@@ -46,6 +45,8 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        //TODO: clean/reorganize if elses....
+
         if (rewindable.IsRewinding() || health.IsDead())
         {
             basicMovement.SetMoveDirection(Vector2.zero);
@@ -61,9 +62,20 @@ public class PlayerController : MonoBehaviour
             basicMovement.SetMoveDirection(moveDirection);
             mainAttackItem.Activate(mainAttack);
 
-            if (secondaryAttack && energy.Consume(energyConsumptionPerSecond * Time.fixedDeltaTime))
+            // laser attack + energy consumption
+            if (secondaryAttack)
             {
-                secondaryAttackItem.Activate(true);
+                float energyCost = secondaryAttackItem.IsActivated() ? 
+                    energyConsumptionPerSecond * Time.fixedDeltaTime : 
+                    energyConsumptionPerSecond * Rewindable.MIN_REWIND_TIME;
+                if (energy.Consume(energyCost))
+                {
+                    secondaryAttackItem.Activate(true);
+                }
+                else
+                {
+                    secondaryAttackItem.Activate(false);
+                }
             }
             else
             {
@@ -71,9 +83,20 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (mainSkill && energy.Consume(energyConsumptionPerSecond * Time.fixedDeltaTime))
+        // global rewind + energy consumption
+        if (mainSkill)
         {
-            mainSkillItem.Activate(true);
+            float energyCost = mainSkillItem.IsActivated() ? 
+                energyConsumptionPerSecond * Time.fixedDeltaTime : 
+                energyConsumptionPerSecond * Rewindable.MIN_REWIND_TIME;
+            if (energy.Consume(energyCost))
+            {
+                mainSkillItem.Activate(true);
+            }
+            else
+            {
+                mainSkillItem.Activate(false);
+            }
         }
         else
         {
@@ -83,37 +106,37 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    public void OnMove(InputValue value)
+    void OnMove(InputValue value)
     {
         moveDirection = value.Get<Vector2>();
     }
 
 
-    public void OnJump(InputValue inputValue)
+    void OnJump(InputValue inputValue)
     {
         jump = inputValue.Get<float>() > 0;
     }
 
 
-    public void OnMainAttack(InputValue inputValue)
+    void OnMainAttack(InputValue inputValue)
     {
         mainAttack = inputValue.Get<float>() > 0;
     }
 
 
-    public void OnSecondaryAttack(InputValue inputValue)
+    void OnSecondaryAttack(InputValue inputValue)
     {
         secondaryAttack = inputValue.Get<float>() > 0;
     }
 
 
-    public void OnMainSkill(InputValue inputValue)
+    void OnMainSkill(InputValue inputValue)
     {
         mainSkill = inputValue.Get<float>() > 0;
     }
 
 
-    public void OnSecondarySkill()
+    void OnSecondarySkill()
     {
         //RewindObjectUnderMouse();
     }

@@ -56,7 +56,7 @@ public class RewindablePartSystem
 
         particlesRegister.Pop();
 
-        pSystemRenderer.sharedMaterial = GameManager.Instance().GetHighlightMaterial();
+        //pSystemRenderer.sharedMaterial = GameManager.Instance().GetHighlightMaterial();
     }
 
 
@@ -73,7 +73,7 @@ public class RewindablePartSystem
 
         particlesRegister.Push(timeCutParticles);
 
-        pSystemRenderer.sharedMaterial = defaultMaterial;
+        //pSystemRenderer.sharedMaterial = defaultMaterial;
     }
 
     void OnRewindableDestroy()

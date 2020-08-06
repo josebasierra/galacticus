@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] Material defaultHighlightMaterial;
 
-    public event Action OnWin;
+    public event Action OnWin, OnDefeat;
     static GameManager instance;
 
     bool isPaused = false;
@@ -81,10 +81,18 @@ public class GameManager : MonoBehaviour
     public void Win()
     {
         OnWin?.Invoke();
+        Stop();
         Debug.Log("Level completed in " + currentLevelTime.ToString());
     }
 
-    public void Pause()
+    public void Defeat()
+    {
+        OnDefeat?.Invoke();
+        Stop();
+        Debug.Log("Game over");
+    }
+
+    public void Stop()
     {
         isPaused = true;
         Time.timeScale = 0;

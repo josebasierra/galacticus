@@ -1,12 +1,49 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering;
 
 public class GlobalRewinder : MonoBehaviour, IItem
 {
     bool isActivated = false;
     Rewindable rewindable;
+
+    SplitToning splitToning;
+    LensDistortion lensDistortion;
+
+    private void Start()
+    {
+        var pp = GameObject.Find("PostProcessing")?.GetComponent<Volume>();
+
+        if (pp != null) 
+        {
+            pp.profile.TryGet(out splitToning);
+            pp.profile.TryGet(out lensDistortion);
+        }
+  
+    }
+
+    public void Activate(bool value)
+    {
+        if (value && !isActivated)
+        {
+            splitToning.active = true;
+            //lensDistortion.active = true;
+        }
+        else if(!value && isActivated)
+        {
+            splitToning.active = false;
+            //lensDistortion.active = false;
+        }
+        isActivated = value;
+    }
+
+
+    public bool IsActivated()
+    {
+        return isActivated;
+    }
 
 
     void OnEnable()
@@ -15,6 +52,7 @@ public class GlobalRewinder : MonoBehaviour, IItem
 
         rewindable.OnRewind += OnRewind;
     }
+
 
     void OnDisable()
     {
@@ -29,15 +67,9 @@ public class GlobalRewinder : MonoBehaviour, IItem
             //TODO: check distance
             foreach (var rewindable in Rewindable.GetInstances())
             {
-                rewindable.StartRewind(0.1f);
+                rewindable.StartRewind(Rewindable.MIN_REWIND_TIME);
             }
         }
-    }
-
-
-    public void Activate(bool value)
-    {
-        isActivated = value;
     }
 
 

@@ -21,6 +21,12 @@ public class Weapon : MonoBehaviour, IItem
     }
 
 
+    public bool IsActivated()
+    {
+        return isActivated;
+    }
+
+
     void FixedUpdate()
     {
         if (isActivated && !isOnCooldown)

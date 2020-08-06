@@ -10,6 +10,7 @@ public class Rewindable : MonoBehaviour
     public event Action<float> OnRewind;
     public event Action OnRecord;
 
+    public static readonly float MIN_REWIND_TIME = 0.10f;
     static List<Rewindable> instances;
 
     [HideInInspector] public RewindableDestruction rewindableDestruction;
@@ -31,6 +32,7 @@ public class Rewindable : MonoBehaviour
 
     void Start()
     {
+        highlighter = gameObject.AddComponent<Highlighter>();
         rewindableDestruction = gameObject.AddComponent<RewindableDestruction>();
 
         var rigidbody = GetComponent<Rigidbody>();
@@ -57,9 +59,6 @@ public class Rewindable : MonoBehaviour
             rewindableAudio = new RewindableAudio(this, audioComponent);
         }
 
-        highlighter = gameObject.AddComponent<Highlighter>();
-
-
         timeRegister = new LimitedStack<float>(MaxCapacity());
 
         if (instances == null)
@@ -67,6 +66,9 @@ public class Rewindable : MonoBehaviour
             instances = new List<Rewindable>();
         }
         instances.Add(this);
+
+        //HACK:
+        Record();
     }
 
 
@@ -78,10 +80,6 @@ public class Rewindable : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (rewindableParticleSystem != null)
-        {
-
-        }
         if (isRewinding)
         {
             Rewind();
@@ -127,19 +125,20 @@ public class Rewindable : MonoBehaviour
     }
 
 
-    public void StartRewind(float time)
+    public void StartRewind(float time, bool highlight = false)
     {
-        highlighter.HighlightOn();
+        if (highlight) highlighter?.HighlightOn();
+        else highlighter?.HighlightOff();
 
         isRewinding = true;
-        secondsToBeRewinded = Mathf.Max(Time.fixedDeltaTime, time);
+        secondsToBeRewinded = Mathf.Max(MIN_REWIND_TIME, time);
         currentRewindedSeconds = 0;
     }
 
 
     public void StopRewind()
     {
-        highlighter.HighlightOff();
+        highlighter?.HighlightOff();
 
         isRewinding = false;
     }

@@ -9,7 +9,7 @@ public class RewindLaser : Laser, IItem
         var rewindable = hit.transform.GetComponent<Rewindable>();
         if (rewindable != null)
         {
-            rewindable.StartRewind(0.1f);
+            rewindable.StartRewind(Rewindable.MIN_REWIND_TIME, true);
         }
     }
 

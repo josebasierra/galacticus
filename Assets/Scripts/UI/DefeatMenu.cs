@@ -1,11 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
-
-public class WinMenu : MonoBehaviour
+public class DefeatMenu : MonoBehaviour
 {
     [SerializeField] GameObject canvasObject;
 
@@ -13,19 +10,16 @@ public class WinMenu : MonoBehaviour
     void Start()
     {
         canvasObject.SetActive(false);
-        GameManager.Instance().OnWin += OnWin;
+        GameManager.Instance().OnDefeat += OnDefeat;
     }
 
-
-    private void OnDestroy()
+    void OnDestroy()
     {
-        GameManager.Instance().OnWin -= OnWin;
+        GameManager.Instance().OnDefeat -= OnDefeat;
     }
 
-
-    void OnWin()
+    void OnDefeat()
     {
         canvasObject.SetActive(true);
     }
 }
-

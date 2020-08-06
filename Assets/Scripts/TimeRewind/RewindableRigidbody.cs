@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//TODO: Separation of rigidbody and transform
 public class RewindableRigidbody
 {
     public struct TimeCut

@@ -15,6 +15,7 @@ public class BasicMovement : MonoBehaviour
     Rigidbody myRigidbody;
     Collider myCollider;
     ContactPoint[] contactPoints;
+    bool isOnGround = false;
 
     Vector3 moveDirection = Vector2.zero;
 
@@ -33,8 +34,6 @@ public class BasicMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        bool isOnGround = PhysicsUtility.IsOnGround(myCollider);
-
         if (isOnGround)
         {
             // Movement
@@ -64,6 +63,8 @@ public class BasicMovement : MonoBehaviour
             //air maneuvers
             myRigidbody.AddForce(moveDirection * airManeuverForce);
         }
+
+        isOnGround = false;
         
     }
 
@@ -95,7 +96,12 @@ public class BasicMovement : MonoBehaviour
 
         int n = collision.GetContacts(contactPoints);
 
-        Debug.Log("player colliding");
+        isOnGround = false;
+        for(int i = 0; i < n; i++)
+        {
+            if (contactPoints[i].point.y < transform.position.y + 0.2f)
+                isOnGround = true;
+        }
     }
 
 }

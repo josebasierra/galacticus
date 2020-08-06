@@ -25,6 +25,11 @@ public class Laser : MonoBehaviour, IItem
         lineRenderer.enabled = value;
     }
 
+    public bool IsActivated()
+    {
+        return isActivated;
+    }
+
 
     void Start()
     {

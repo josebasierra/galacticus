@@ -106,7 +106,10 @@ public class RewindableDestruction : MonoBehaviour
         //    Debug.Log("Time of rewind:" + timeOfRewind.ToString());
         //    Debug.Log("Time of destruction" + timeOfDestruction.ToString());
         //}
-
+        if (isDestroyed)
+        {
+            timeDestroyed -= Time.fixedDeltaTime;
+        }
         if (isDestroyed && timeOfDestruction == timeOfRewind)
         {
             Reactivate();

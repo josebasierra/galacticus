@@ -5,4 +5,5 @@ using UnityEngine;
 public interface IItem 
 {
     void Activate(bool value);
+    bool IsActivated();
 }
