@@ -7,14 +7,18 @@ public class Energy : MonoBehaviour
     [SerializeField] float maxValue = 100;
     [SerializeField] float regenerationPerSecond;
 
-    [SerializeField] float currentValue;
+    [SerializeField] float currentValue = 0f;
+
+    bool isOverheated = true;
 
 
     public bool Consume(float consumeValue)
     {
-        if (currentValue < consumeValue) return false;
+        if (isOverheated) return false;
 
         currentValue -= consumeValue;
+        if (currentValue < 0) isOverheated = true;
+
         return true;
     }
 
@@ -30,15 +34,15 @@ public class Energy : MonoBehaviour
         return maxValue;
     }
 
-
-    void Start()
+    public bool IsOverheated()
     {
-        currentValue = maxValue;
+        return isOverheated;
     }
 
 
     void FixedUpdate()
     {
         currentValue = Mathf.Min(maxValue, currentValue + regenerationPerSecond * Time.fixedDeltaTime);
+        if (currentValue > maxValue * 0.2) isOverheated = false;
     }
 }

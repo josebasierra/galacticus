@@ -2,16 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//TODO: Change it to 'Global' rewinder
+
 public class GlobalRewinder : MonoBehaviour, IItem
 {
     bool isActivated = false;
+    Rewindable rewindable;
+
+
+    void OnEnable()
+    {
+        if (rewindable == null) rewindable = GetComponent<Rewindable>();
+
+        rewindable.OnRewind += OnRewind;
+    }
+
+    void OnDisable()
+    {
+        rewindable.OnRewind -= OnRewind;
+    }
 
 
     void FixedUpdate()
     {
         if (isActivated)
         {
+            //TODO: check distance
             foreach (var rewindable in Rewindable.GetInstances())
             {
                 rewindable.StartRewind(0.1f);
@@ -26,19 +41,10 @@ public class GlobalRewinder : MonoBehaviour, IItem
     }
 
 
-    //void RewindArea()
-    //{
-    //    var colliders = Physics.OverlapSphere(transform.position, radius);
-
-    //    foreach (var collider in colliders)
-    //    {
-    //        var rewindable = collider.GetComponent<Rewindable>();
-    //        if (rewindable != null)
-    //        {
-    //            rewindable.StartRewind(1.5f);
-    //        }
-    //    }
-    //}
+    void OnRewind(float time)
+    {
+        GameManager.Instance().SetCurrentLevelTime(GameManager.Instance().GetCurrentLevelTime() - 2*Time.fixedDeltaTime);
+    }
 
 
     //void OnDrawGizmos()

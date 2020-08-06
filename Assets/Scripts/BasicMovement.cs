@@ -14,6 +14,7 @@ public class BasicMovement : MonoBehaviour
 
     Rigidbody myRigidbody;
     Collider myCollider;
+    ContactPoint[] contactPoints;
 
     Vector3 moveDirection = Vector2.zero;
 
@@ -25,6 +26,8 @@ public class BasicMovement : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody>();
         myCollider = GetComponent<Collider>();
+        myRigidbody.sleepThreshold = 0;
+        contactPoints = new ContactPoint[5];
     }
 
 
@@ -83,6 +86,16 @@ public class BasicMovement : MonoBehaviour
     void EnableJump()
     {
         isJumpOnCooldown = false;
+    }
+
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.contactCount > 5) return;
+
+        int n = collision.GetContacts(contactPoints);
+
+        Debug.Log("player colliding");
     }
 
 }

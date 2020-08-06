@@ -180,6 +180,7 @@ MonoBehaviour:
   mainAttackObject: {fileID: 3036307889087701650}
   secondaryAttackObject: {fileID: 882026842300398410}
   mainSkillObject: {fileID: 1472956781821180802}
+  energyConsumptionPerSecond: 25
 --- !u!114 &4099942498753931473
 MonoBehaviour:
   m_ObjectHideFlags: 0

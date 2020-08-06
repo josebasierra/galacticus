@@ -36,11 +36,11 @@ public class GameManager : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         if (!isPaused)
         {
-            currentLevelTime += Time.deltaTime;
+            currentLevelTime += Time.fixedDeltaTime;
         }
     }
 
@@ -55,6 +55,13 @@ public class GameManager : MonoBehaviour
     {
         return currentLevelTime;
     }
+
+
+    public void SetCurrentLevelTime(float value)
+    {
+        currentLevelTime = value;
+    }
+
 
     public void CustomDestroy(GameObject objectToDestroy)
     {

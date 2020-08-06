@@ -48,7 +48,6 @@ public class PlayerController : MonoBehaviour
     {
         if (rewindable.IsRewinding() || health.IsDead())
         {
-            //TODO: FIX
             basicMovement.SetMoveDirection(Vector2.zero);
             basicMovement.SetJump(false);
             mainAttackItem.Activate(false);
@@ -59,24 +58,33 @@ public class PlayerController : MonoBehaviour
             //aim
             var mouseScreenPoint = Mouse.current.position.ReadValue();
             var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
-
             Vector2 lookDirection = (mouseScreenPoint - (Vector2)playerScreenPoint).normalized;
-
             transform.forward = new Vector3(lookDirection.x, 0, lookDirection.y);
 
             //actions
             basicMovement.SetJump(jump);
             basicMovement.SetMoveDirection(moveDirection);
-
             mainAttackItem.Activate(mainAttack);
-            secondaryAttackItem.Activate(secondaryAttack);
+
+            if (secondaryAttack && energy.Consume(energyConsumptionPerSecond * Time.fixedDeltaTime))
+            {
+                secondaryAttackItem.Activate(true);
+            }
+            else
+            {
+                secondaryAttackItem.Activate(false);
+            }
         }
 
-        //if (mainSkill)
-        //{
-        //    energy.Consume(energyConsumptionPerSecond * Time.fixedDeltaTime);
-        //}
-        mainSkillItem.Activate(mainSkill);
+        if (mainSkill && energy.Consume(energyConsumptionPerSecond * Time.fixedDeltaTime))
+        {
+            mainSkillItem.Activate(true);
+        }
+        else
+        {
+            mainSkillItem.Activate(false);
+        }
+
     }
 
 
