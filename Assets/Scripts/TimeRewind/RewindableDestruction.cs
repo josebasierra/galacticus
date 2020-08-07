@@ -56,6 +56,12 @@ public class RewindableDestruction : MonoBehaviour
             meshRenderer.enabled = false;
         }
 
+        var skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+        foreach (var meshRenderer in skinnedMeshRenderers)
+        {
+            meshRenderer.enabled = false;
+        }
+
         var colliders = GetComponentsInChildren<Collider>();
         foreach(var collider in colliders)
         {
@@ -81,6 +87,12 @@ public class RewindableDestruction : MonoBehaviour
 
         var meshRenderers = GetComponentsInChildren<MeshRenderer>();
         foreach (var meshRenderer in meshRenderers)
+        {
+            meshRenderer.enabled = true;
+        }
+
+        var skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+        foreach (var meshRenderer in skinnedMeshRenderers)
         {
             meshRenderer.enabled = true;
         }
