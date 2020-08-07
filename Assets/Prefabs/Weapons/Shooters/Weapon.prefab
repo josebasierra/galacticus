@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootForce: 2.5
-  cooldown: 0.1
+  cooldown: 0.15
   prefabBullet: {fileID: 3116605664783012234, guid: 91b64758b98fcc444b47a7233389cbe3, type: 3}
   releasePoint: {fileID: 2844050784572841087}
   endPoint: {fileID: 7175474741060614883}

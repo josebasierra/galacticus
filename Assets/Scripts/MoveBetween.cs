@@ -14,6 +14,7 @@ public class MoveBetween : MonoBehaviour
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody>();
+        myRigidbody.velocity = (object2.transform.position - object1.transform.position).normalized * speed;
     }
 
     private void FixedUpdate()

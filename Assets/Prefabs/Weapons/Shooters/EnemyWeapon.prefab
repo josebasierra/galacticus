@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a677cf9d579db4bbc3597f92fe743d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootForce: 1.5
-  cooldown: 0.2
+  shootForce: 2.5
+  cooldown: 0.3
   prefabBullet: {fileID: 3116605664783012234, guid: 9be378cd09b8ac94d846ed7922c30cf0, type: 3}
   releasePoint: {fileID: 2844050784572841087}
   endPoint: {fileID: 7175474741060614883}

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 659440916765201542}
   m_Layer: 0
   m_Name: RotatoryObstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: af3411099582f1246a4b0b6ccaded088, type: 2}
+  - {fileID: 2100000, guid: cb426ca622cb80048a5bf6a131fb9dc4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 7.5
+  rewindableDestruction: {fileID: 0}
 --- !u!114 &659440916765201542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 100
   destroyOnContact: 0
+  particleEffect: {fileID: 0}
 --- !u!1 &659440917512302281
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,7 +217,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: af3411099582f1246a4b0b6ccaded088, type: 2}
+  - {fileID: 2100000, guid: cb426ca622cb80048a5bf6a131fb9dc4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -248,7 +250,7 @@ GameObject:
   - component: {fileID: 3779354325717520061}
   m_Layer: 0
   m_Name: Rotatory
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

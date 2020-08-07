@@ -43,6 +43,6 @@ public class Energy : MonoBehaviour
     void FixedUpdate()
     {
         currentValue = Mathf.Min(maxValue, currentValue + regenerationPerSecond * Time.fixedDeltaTime);
-        if (currentValue > maxValue * 0.2) isOverheated = false;
+        if (currentValue > maxValue * 0.25) isOverheated = false;
     }
 }

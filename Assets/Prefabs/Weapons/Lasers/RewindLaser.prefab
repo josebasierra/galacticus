@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af26ad00e669cc94fadd6b531eb3183e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 15
+  range: 20
   startPoint: {fileID: 3967417143043718376}
   endPoint: {fileID: 3967417142796235353}
   laserSound: {fileID: 0}

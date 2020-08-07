@@ -195,9 +195,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  timeToAchieveSpeed: 0.2
-  airManeuverForce: 5
-  jumpForce: 8
+  timeToAchieveSpeed: 0.1
+  airManeuverForce: 8
+  jumpForce: 10
   jumpCooldown: 0.5
 --- !u!114 &4099942498753931475
 MonoBehaviour:

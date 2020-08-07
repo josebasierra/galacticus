@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22513187d13fcfd4c876dbafcbba0303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsToDestroy: 2
+  secondsToDestroy: 1.5
 --- !u!114 &2029181735279716061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,8 +156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2302d8f53a1fc664395b848aa049a152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 4
   destroyOnContact: 1
+  particleEffect: {fileID: 9101667168483763348, guid: b2d51b31e3eb82b4fbb3588ccee6c025, type: 3}
 --- !u!114 &609837377726805681
 MonoBehaviour:
   m_ObjectHideFlags: 0

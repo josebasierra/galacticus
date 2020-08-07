@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumRewindSeconds: 10
+  rewindableDestruction: {fileID: 0}
 --- !u!114 &3605205151540808370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,5 +154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2302d8f53a1fc664395b848aa049a152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 10
   destroyOnContact: 1
+  particleEffect: {fileID: 9101667168483763348, guid: 2726ba0dac009dd4c9e058a08606b109, type: 3}

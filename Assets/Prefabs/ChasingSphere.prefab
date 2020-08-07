@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseRadius: 20
-  maxSpeed: 30
+  maxSpeed: 65
   targetTransform: {fileID: 0}
 --- !u!114 &5003897703819527809
 MonoBehaviour:
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxValue: 2
   currentValue: 0
-  deathEffect: {fileID: 9101667168483763348, guid: 84ea1f6b06d44ce478510b01f788b526, type: 3}
+  deathEffect: {fileID: 9101667168483763348, guid: b49b98d75d2d28442b233d468b240310, type: 3}
 --- !u!114 &5003897703819527808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,4 +172,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba985ae8a4a856b4c8b14936bb47c83d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 5

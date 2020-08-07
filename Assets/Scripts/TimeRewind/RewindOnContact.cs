@@ -12,7 +12,7 @@ public class RewindOnContact : MonoBehaviour
         var rewindable = collision.gameObject.GetComponent<Rewindable>();
         if (rewindable != null)
         {
-            rewindable.StartRewind(rewindSeconds);
+            rewindable.StartRewind(rewindSeconds, true);
             GameManager.Instance().CustomDestroy(this.gameObject);
         }
     }

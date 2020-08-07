@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class SoundOnStart : MonoBehaviour
 {
-
     [SerializeField] AudioClip clip;
 
-    // Start is called before the first frame update
     void Start()
     {
         var audioComponent = GetComponent<AudioComponent>();
@@ -17,9 +15,5 @@ public class SoundOnStart : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

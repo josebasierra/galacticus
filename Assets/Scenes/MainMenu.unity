@@ -377,6 +377,10 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7537792131038783776, guid: 5a4551c27991fa34f8ff864974e2472a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level1
+      objectReference: {fileID: 0}
     - target: {fileID: 7537792131038783782, guid: 5a4551c27991fa34f8ff864974e2472a, type: 3}
       propertyPath: m_Name
       value: Play
