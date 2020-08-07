@@ -12,7 +12,11 @@ public class Weapon : MonoBehaviour, IItem
     [SerializeField] Transform endPoint;
 
     bool isActivated = false;
-    bool isOnCooldown = false;
+    float timeWithoutShooting = 0f;
+
+    //time rewind...
+    LimitedStack<float> timeWithoutShootingRegister;
+    Rewindable rewindable;
 
 
     public void Activate(bool value)
@@ -27,13 +31,32 @@ public class Weapon : MonoBehaviour, IItem
     }
 
 
+    void OnEnable()
+    {
+        if (rewindable == null)
+        {
+            rewindable = GetComponentInParent<Rewindable>();
+            timeWithoutShootingRegister = new LimitedStack<float>(rewindable.MaxCapacity());
+        }
+        rewindable.OnRewind += OnRewind;
+        rewindable.OnRecord += OnRecord;
+    }
+
+
+    void OnDisable()
+    {
+        rewindable.OnRewind -= OnRewind;
+        rewindable.OnRecord -= OnRecord;
+    }
+
+
     void FixedUpdate()
     {
-        if (isActivated && !isOnCooldown)
+        timeWithoutShooting += Time.fixedDeltaTime;
+        if (isActivated && timeWithoutShooting > cooldown)
         {
             Shoot();
-            isOnCooldown = true;
-            Invoke(nameof(EnableWeapon), cooldown);
+            timeWithoutShooting = 0;
         }
     }
 
@@ -53,8 +76,16 @@ public class Weapon : MonoBehaviour, IItem
         bulletRigidbody.AddForce(shootDirection * shootForce, ForceMode.Impulse);
     }
 
-    void EnableWeapon()
+
+    void OnRewind(float time)
     {
-        isOnCooldown = false;
+        timeWithoutShooting = timeWithoutShootingRegister.Top();
+        timeWithoutShootingRegister.Pop();
+    }
+
+
+    void OnRecord()
+    {
+        timeWithoutShootingRegister.Push(timeWithoutShooting);
     }
 }

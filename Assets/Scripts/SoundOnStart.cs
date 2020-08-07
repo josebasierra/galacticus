@@ -9,7 +9,7 @@ public class SoundOnStart : MonoBehaviour
     void Start()
     {
         var audioComponent = GetComponent<AudioComponent>();
-        if (audioComponent != null && clip != null)
+        if (audioComponent != null)
         {
             audioComponent.Play(clip);
         }

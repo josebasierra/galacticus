@@ -49,7 +49,7 @@ public class RewindableAudio
         {
             if (timeCut.isPlaying)
             {
-                timeCut.source.volume = audioComponent.DefaultVolume(timeCut.source)*0.9f;
+                //timeCut.source.volume = audioComponent.DefaultVolume(timeCut.source)*0.9f;
                 timeCut.source.pitch = -1;
                 timeCut.source.timeSamples = timeCut.timeSamples;
 

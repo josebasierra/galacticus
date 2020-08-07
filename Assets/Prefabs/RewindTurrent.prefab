@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7589511980560742814}
   - component: {fileID: 7589511980560742815}
   - component: {fileID: 2506723034744949227}
+  - component: {fileID: 972055770830540468}
   m_Layer: 0
   m_Name: RewindTurrent
   m_TagString: Obstacle
@@ -145,6 +146,7 @@ MonoBehaviour:
   maxValue: 20
   currentValue: 0
   deathEffect: {fileID: 9101667168483763348, guid: 5fd3bd505c1b0c249a85e79952638d9a, type: 3}
+  deathSound: {fileID: 8300000, guid: 6d31c953268865946a90a40b1688f25e, type: 3}
 --- !u!114 &2506723034744949227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +160,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 30
+--- !u!114 &972055770830540468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589511980560742813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625bf5d9b8ac84544853815b75534eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8571174007787469831
 PrefabInstance:
   m_ObjectHideFlags: 0

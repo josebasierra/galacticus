@@ -21,7 +21,7 @@ public class AudioComponent : MonoBehaviour
     }
 
 
-    void Start()
+    void Awake()
     {
         clipToSource = new Dictionary<AudioClip, AudioSource>();
         sourceToDefault = new Dictionary<AudioSource, DefaultSettings>();
@@ -30,14 +30,19 @@ public class AudioComponent : MonoBehaviour
 
     public void Play(AudioClip clip)
     {
+        if (clip == null) return;
+
         if (!clipToSource.TryGetValue(clip, out AudioSource source))
         {
             source = gameObject.AddComponent<AudioSource>();
+            source.playOnAwake = false;
+
             clipToSource.Add(clip, source);
             AddDefaultSettings(source);
         }
-        
+
         source.clip = clip;
+        source.timeSamples = 0;
         source.Play(); 
     }
 

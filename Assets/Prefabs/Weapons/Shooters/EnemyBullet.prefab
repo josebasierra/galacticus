@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: -1144375026543143913}
   - component: {fileID: 3605205151540808370}
   - component: {fileID: 2029181735279716061}
+  - component: {fileID: -9077495062900873183}
+  - component: {fileID: 1653896645353258197}
   m_Layer: 0
   m_Name: EnemyBullet
   m_TagString: Bullet
@@ -154,6 +156,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2302d8f53a1fc664395b848aa049a152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 15
   destroyOnContact: 1
   particleEffect: {fileID: 9101667168483763348, guid: 2726ba0dac009dd4c9e058a08606b109, type: 3}
+--- !u!114 &-9077495062900873183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3116605664783012234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b447471575cfcdd4e9958d77070adaca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: f19b49cb062ce13448a541c742fa4b5d, type: 3}
+--- !u!114 &1653896645353258197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3116605664783012234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625bf5d9b8ac84544853815b75534eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

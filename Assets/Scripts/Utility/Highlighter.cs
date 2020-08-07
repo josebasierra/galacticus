@@ -21,7 +21,7 @@ public class Highlighter : MonoBehaviour
 
         for (int i = 0; i < meshRenderers.Length; i++)
         {
-            originalMaterials[i] = meshRenderers[i].material;
+            originalMaterials[i] = meshRenderers[i].sharedMaterial;
         }
     }
     

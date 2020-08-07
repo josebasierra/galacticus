@@ -12,6 +12,8 @@ public class BasicMovement : MonoBehaviour
     [SerializeField] float jumpForce;
     [SerializeField] float jumpCooldown;
 
+    [SerializeField] AudioClip jumpSound;
+
     Rigidbody myRigidbody;
     Collider myCollider;
     ContactPoint[] contactPoints;
@@ -22,6 +24,7 @@ public class BasicMovement : MonoBehaviour
     bool jump = false;
     bool isJumpOnCooldown = false;
 
+    AudioComponent audioComponent;
 
     void Start()
     {
@@ -29,6 +32,8 @@ public class BasicMovement : MonoBehaviour
         myCollider = GetComponent<Collider>();
         myRigidbody.sleepThreshold = 0;
         contactPoints = new ContactPoint[5];
+
+        audioComponent = GetComponent<AudioComponent>();
     }
 
 
@@ -56,6 +61,8 @@ public class BasicMovement : MonoBehaviour
 
                 isJumpOnCooldown = true;
                 Invoke(nameof(EnableJump), jumpCooldown);
+
+                audioComponent.Play(jumpSound);
             }
         }
         else

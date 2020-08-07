@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5003897703819527814}
   - component: {fileID: 5003897703819527809}
   - component: {fileID: 5003897703819527808}
+  - component: {fileID: 4593024522559242623}
   m_Layer: 0
   m_Name: ChasingSphere
   m_TagString: Obstacle
@@ -160,6 +161,7 @@ MonoBehaviour:
   maxValue: 2
   currentValue: 0
   deathEffect: {fileID: 9101667168483763348, guid: b49b98d75d2d28442b233d468b240310, type: 3}
+  deathSound: {fileID: 8300000, guid: 6d31c953268865946a90a40b1688f25e, type: 3}
 --- !u!114 &5003897703819527808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,3 +175,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+--- !u!114 &4593024522559242623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5003897703819527811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625bf5d9b8ac84544853815b75534eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

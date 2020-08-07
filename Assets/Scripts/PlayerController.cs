@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
             basicMovement.SetMoveDirection(Vector2.zero);
             basicMovement.SetJump(false);
             mainAttackItem.Activate(false);
-            secondaryAttackItem.Activate(false);
+            if (health.IsDead()) secondaryAttackItem.Activate(false);  //hacks everywhere.. fuck game jam time
         }
         else
         {

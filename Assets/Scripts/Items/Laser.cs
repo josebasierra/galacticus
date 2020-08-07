@@ -14,7 +14,7 @@ public class Laser : MonoBehaviour, IItem
     [SerializeField] AudioClip laserSound;
 
     LineRenderer lineRenderer;
-    public bool isActivated;
+    public bool isActivated = false;
 
     AudioComponent audioComponent;
 
@@ -33,7 +33,6 @@ public class Laser : MonoBehaviour, IItem
 
     void Start()
     {
-        isActivated = false;
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.useWorldSpace = true;
 
@@ -80,6 +79,44 @@ public class Laser : MonoBehaviour, IItem
 
     protected virtual void HitEffect(RaycastHit hit)
     {
+
+    }
+
+
+    //time rewind....
+
+    Rewindable rewindable;
+    LimitedStack<bool> isActivatedRegister;
+
+    void OnEnable()
+    {
+        if (rewindable == null)
+        {
+            rewindable = GetComponentInParent<Rewindable>();
+            isActivatedRegister = new LimitedStack<bool>(rewindable.MaxCapacity());
+        }
+        rewindable.OnRewind += OnRewind;
+        rewindable.OnRecord += OnRecord;
+    }
+
+
+    void OnDisable()
+    {
+        rewindable.OnRewind -= OnRewind;
+        rewindable.OnRecord -= OnRecord;
+    }
+
+
+    void OnRewind(float time)
+    {
+        Activate(isActivatedRegister.Top());
+        isActivatedRegister.Pop();
+
+    }
+
+    void OnRecord()
+    {
+        isActivatedRegister.Push(isActivated);
 
     }
 

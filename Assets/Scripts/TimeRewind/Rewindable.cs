@@ -67,7 +67,7 @@ public class Rewindable : MonoBehaviour
         }
         instances.Add(this);
 
-        //HACK:
+
         Record();
     }
 
