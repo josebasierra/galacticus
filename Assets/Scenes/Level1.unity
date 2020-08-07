@@ -5466,11 +5466,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8357941405576353387, guid: 1c24348fceec054409130841d80b256a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.15
+      value: -4.123
       objectReference: {fileID: 0}
     - target: {fileID: 8357941405576353387, guid: 1c24348fceec054409130841d80b256a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.45572725
+      value: 0.51355904
       objectReference: {fileID: 0}
     - target: {fileID: 8357941405576353387, guid: 1c24348fceec054409130841d80b256a, type: 3}
       propertyPath: m_LocalScale.x
@@ -7272,6 +7272,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4723830205338190342, guid: 504f3d6ef104b3f43bd7103441dc223e, type: 3}
+      propertyPath: Mute
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723830205338190342, guid: 504f3d6ef104b3f43bd7103441dc223e, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8060919489386064748, guid: 504f3d6ef104b3f43bd7103441dc223e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5300236
@@ -7385,7 +7393,7 @@ PrefabInstance:
     - target: {fileID: 3450024943103717010, guid: db763c903df8a9041a202eeeda6ef64e, type: 3}
       propertyPath: music
       value: 
-      objectReference: {fileID: 8300000, guid: 29d36e71451b17d4c8fe2d617060610c, type: 3}
+      objectReference: {fileID: 8300000, guid: d0379e949396c3f40b0388c3eb120beb, type: 3}
     - target: {fileID: 3450024943103717011, guid: db763c903df8a9041a202eeeda6ef64e, type: 3}
       propertyPath: m_Name
       value: LevelSettings

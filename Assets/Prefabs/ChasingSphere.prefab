@@ -161,7 +161,7 @@ MonoBehaviour:
   maxValue: 2
   currentValue: 0
   deathEffect: {fileID: 9101667168483763348, guid: b49b98d75d2d28442b233d468b240310, type: 3}
-  deathSound: {fileID: 8300000, guid: 6d31c953268865946a90a40b1688f25e, type: 3}
+  deathSound: {fileID: 8300000, guid: 0b5ca8fa949f32d4a87de04fbbe054a0, type: 3}
 --- !u!114 &5003897703819527808
 MonoBehaviour:
   m_ObjectHideFlags: 0
