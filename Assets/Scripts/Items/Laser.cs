@@ -64,8 +64,8 @@ public class Laser : MonoBehaviour, IItem
         lineRenderer.SetPosition(0, startPoint.position);
         Vector3 laserDirection = (endPoint.position - startPoint.position).normalized;
         RaycastHit hit;
-
-        if (Physics.Raycast(startPoint.position, laserDirection, out hit, range))
+        LayerMask mask = LayerMask.GetMask("Default");
+        if (Physics.Raycast(startPoint.position, laserDirection, out hit, range, mask))
         {
             HitEffect(hit);
             lineRenderer.SetPosition(1, hit.point);

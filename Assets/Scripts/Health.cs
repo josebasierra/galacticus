@@ -24,6 +24,7 @@ public class Health : MonoBehaviour
         if(!isDead) currentValue -= value;
         if (!isDead && currentValue <= 0 || (rewindable != null && !rewindable.IsDestroyed() && isDead))
         {
+            Debug.Log("TakeDamage:" + value.ToString());
             isDead = true;
             OnDeath?.Invoke();
 

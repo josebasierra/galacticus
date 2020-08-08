@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class AudioManager : MonoBehaviour
 {
@@ -124,5 +125,11 @@ public class AudioManager : MonoBehaviour
     void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnMuteMusic()
+    {
+        Debug.Log("Music turn on/off");
+        audioSource.volume = (audioSource.volume + 1) % 2;
     }
 }
