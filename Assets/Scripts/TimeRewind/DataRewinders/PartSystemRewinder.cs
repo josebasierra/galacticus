@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RewindablePartSystem 
+public class PartSystemRewinder
 {
     struct TimeCutParticle
     {
@@ -20,7 +20,7 @@ public class RewindablePartSystem
     Material defaultMaterial;
 
 
-    public RewindablePartSystem(Rewindable _rewindable, ParticleSystem _pSystem)
+    public PartSystemRewinder(Rewindable _rewindable, ParticleSystem _pSystem)
     {
         rewindable = _rewindable;
         pSystem = _pSystem;
@@ -37,7 +37,7 @@ public class RewindablePartSystem
         defaultMaterial = pSystemRenderer.material;
     }
 
-    ~RewindablePartSystem()
+    ~PartSystemRewinder()
     {
         rewindable.OnRewind -= OnRewind;
         rewindable.OnRecord -= OnRecord;

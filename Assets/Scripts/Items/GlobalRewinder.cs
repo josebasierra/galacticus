@@ -6,23 +6,17 @@ using UnityEngine.Rendering;
 
 public class GlobalRewinder : MonoBehaviour, IItem
 {
+    [SerializeField] float energyConsumptionPerSecond;
+
     bool isActivated = false;
     Rewindable rewindable;
+    Energy energy;
 
+    //postprocessing effects
     SplitToning splitToning;
     LensDistortion lensDistortion;
 
-    private void Start()
-    {
-        var pp = GameObject.Find("PostProcessing")?.GetComponent<Volume>();
 
-        if (pp != null) 
-        {
-            pp.profile.TryGet(out splitToning);
-            pp.profile.TryGet(out lensDistortion);
-        }
-  
-    }
 
     public void Activate(bool value)
     {
@@ -46,6 +40,41 @@ public class GlobalRewinder : MonoBehaviour, IItem
     }
 
 
+    private void Start()
+    {
+        var postProcessing = GameObject.Find("PostProcessing");
+
+        if (postProcessing != null)
+        {
+            Volume volume = postProcessing.GetComponent<Volume>();
+            if (volume != null)
+            {
+                volume.profile.TryGet(out splitToning);
+                volume.profile.TryGet(out lensDistortion);
+            }
+        }
+
+        energy = GetComponentInParent<Energy>();
+    }
+
+
+    void FixedUpdate()
+    {
+        if (isActivated)
+        {
+            bool sufficientEnergy = energy == null || energy.Consume(energyConsumptionPerSecond * Time.fixedDeltaTime);
+            if (sufficientEnergy)
+            {
+                //TODO: check distance
+                foreach (var rewindable in Rewindable.GetInstances())
+                {
+                    rewindable.StartRewind(Rewindable.MIN_REWIND_TIME);
+                }
+            }
+        }
+    }
+
+
     void OnEnable()
     {
         if (rewindable == null) rewindable = GetComponent<Rewindable>();
@@ -57,19 +86,6 @@ public class GlobalRewinder : MonoBehaviour, IItem
     void OnDisable()
     {
         rewindable.OnRewind -= OnRewind;
-    }
-
-
-    void FixedUpdate()
-    {
-        if (isActivated)
-        {
-            //TODO: check distance
-            foreach (var rewindable in Rewindable.GetInstances())
-            {
-                rewindable.StartRewind(Rewindable.MIN_REWIND_TIME);
-            }
-        }
     }
 
 

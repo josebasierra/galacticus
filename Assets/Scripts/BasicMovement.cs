@@ -12,10 +12,9 @@ public class BasicMovement : MonoBehaviour
     [SerializeField] float jumpForce;
     [SerializeField] float jumpCooldown;
 
-    [SerializeField] AudioClip jumpSound;
-
     Rigidbody myRigidbody;
     Collider myCollider;
+
     ContactPoint[] contactPoints;
     bool isOnGround = false;
 
@@ -24,6 +23,8 @@ public class BasicMovement : MonoBehaviour
     bool jump = false;
     bool isJumpOnCooldown = false;
 
+    [Header("Audio")]
+    [SerializeField] AudioClip jumpSound;
     AudioComponent audioComponent;
 
     void Start()

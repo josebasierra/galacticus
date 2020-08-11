@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class TurretController : MonoBehaviour
 {
-    [SerializeField] float radius = 20;
+    [SerializeField] float detectionRadius = 20;
+    
     Transform target;
     Health health;
-    Rewindable rewindable;
     IItem item;
+
+    Rewindable rewindable;
+
 
     void Start()
     {
@@ -22,7 +25,7 @@ public class TurretController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (target != null && !health.IsDead() && !rewindable.IsRewinding() && Vector3.Distance(transform.position, target.position) < radius)
+        if (target != null && !health.IsDead() && !rewindable.IsRewinding() && Vector3.Distance(transform.position, target.position) < detectionRadius)
         {
             var aimDirection = target.position - transform.position;
             transform.right = aimDirection;

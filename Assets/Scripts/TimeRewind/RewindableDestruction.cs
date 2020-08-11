@@ -113,11 +113,6 @@ public class RewindableDestruction : MonoBehaviour
 
     void OnRewind(float timeOfRewind)
     {
-        //if (CompareTag("Bullet"))
-        //{
-        //    Debug.Log("Time of rewind:" + timeOfRewind.ToString());
-        //    Debug.Log("Time of destruction" + timeOfDestruction.ToString());
-        //}
         if (isDestroyed)
         {
             timeDestroyed -= Time.fixedDeltaTime;

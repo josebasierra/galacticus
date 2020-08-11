@@ -4,19 +4,22 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(LineRenderer))]
-public class Laser : MonoBehaviour, IItem
+public class Laser : MonoBehaviour, IItem, IRewindableData<bool>
 {
     [SerializeField] float range;
+    [SerializeField] float energyConsumptionPerSecond;
     [SerializeField] Transform startPoint;
     [SerializeField] Transform endPoint;
 
-    [Header("Audio")]
-    [SerializeField] AudioClip laserSound;
-
     LineRenderer lineRenderer;
     public bool isActivated = false;
+    Energy energy;
 
+    [Header("Audio")]
+    [SerializeField] AudioClip laserSound;
     AudioComponent audioComponent;
+
+    BasicDataRewinder<bool> rewinder;
 
 
     public void Activate(bool value)
@@ -24,6 +27,7 @@ public class Laser : MonoBehaviour, IItem
         isActivated = value;
         lineRenderer.enabled = value;
     }
+
 
     public bool IsActivated()
     {
@@ -38,7 +42,11 @@ public class Laser : MonoBehaviour, IItem
 
         lineRenderer.enabled = isActivated;
 
+        energy = GetComponentInParent<Energy>();
+
         audioComponent = GetComponent<AudioComponent>();
+
+        rewinder = new BasicDataRewinder<bool>(GetComponentInParent<Rewindable>(), this);
     }
 
 
@@ -46,8 +54,12 @@ public class Laser : MonoBehaviour, IItem
     {
         if (isActivated)
         {
-            EmitLaser();
-            if (audioComponent != null) audioComponent.Play(laserSound);
+            bool sufficientEnergy = energy == null || energy.Consume(energyConsumptionPerSecond * Time.fixedDeltaTime);
+            if (sufficientEnergy)
+            {
+                EmitLaser();
+                if (audioComponent != null) audioComponent.Play(laserSound);
+            }
         }
 
         else
@@ -83,41 +95,13 @@ public class Laser : MonoBehaviour, IItem
     }
 
 
-    //time rewind....
-
-    Rewindable rewindable;
-    LimitedStack<bool> isActivatedRegister;
-
-    void OnEnable()
+    public bool GetRewindableData()
     {
-        if (rewindable == null)
-        {
-            rewindable = GetComponentInParent<Rewindable>();
-            isActivatedRegister = new LimitedStack<bool>(rewindable.MaxCapacity());
-        }
-        rewindable.OnRewind += OnRewind;
-        rewindable.OnRecord += OnRecord;
+        return isActivated;
     }
 
-
-    void OnDisable()
+    public void SetRewindableData(bool data)
     {
-        rewindable.OnRewind -= OnRewind;
-        rewindable.OnRecord -= OnRecord;
+        Activate(data);
     }
-
-
-    void OnRewind(float time)
-    {
-        Activate(isActivatedRegister.Top());
-        isActivatedRegister.Pop();
-
-    }
-
-    void OnRecord()
-    {
-        isActivatedRegister.Push(isActivated);
-
-    }
-
 }

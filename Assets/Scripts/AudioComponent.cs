@@ -8,6 +8,8 @@ public class AudioComponent : MonoBehaviour
     Dictionary<AudioClip, AudioSource> clipToSource;
     Dictionary<AudioSource, DefaultSettings> sourceToDefault;
 
+    AudioRewinder rewindableAudio;
+
     public struct DefaultSettings
     {
         public float volume;
@@ -25,6 +27,8 @@ public class AudioComponent : MonoBehaviour
     {
         clipToSource = new Dictionary<AudioClip, AudioSource>();
         sourceToDefault = new Dictionary<AudioSource, DefaultSettings>();
+
+        rewindableAudio = new AudioRewinder(GetComponentInParent<Rewindable>(), this);
     }
 
 

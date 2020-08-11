@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RewindableAudio 
+public class AudioRewinder 
 {
     public struct TimeCut
     {
@@ -23,7 +23,7 @@ public class RewindableAudio
 
     LimitedStack<TimeCut[]> audioRegister;
 
-    public RewindableAudio(Rewindable _rewindable, AudioComponent _audioComponent)
+    public AudioRewinder(Rewindable _rewindable, AudioComponent _audioComponent)
     {
         rewindable = _rewindable;
         audioComponent = _audioComponent;
@@ -35,7 +35,7 @@ public class RewindableAudio
     }
 
 
-    ~RewindableAudio()
+    ~AudioRewinder()
     {
         rewindable.OnRewind -= OnRewind;
         rewindable.OnRecord -= OnRecord;

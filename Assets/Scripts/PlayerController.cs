@@ -45,8 +45,6 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        //TODO: clean/reorganize if elses....
-
         if (rewindable.IsRewinding() || health.IsDead())
         {
             basicMovement.SetMoveDirection(Vector2.zero);
@@ -61,48 +59,10 @@ public class PlayerController : MonoBehaviour
             basicMovement.SetJump(jump);
             basicMovement.SetMoveDirection(moveDirection);
             mainAttackItem.Activate(mainAttack);
-
-            // laser attack + energy consumption
-            if (secondaryAttack)
-            {
-                float energyCost = secondaryAttackItem.IsActivated() ? 
-                    energyConsumptionPerSecond * Time.fixedDeltaTime : 
-                    energyConsumptionPerSecond * Rewindable.MIN_REWIND_TIME;
-                if (energy.Consume(energyCost))
-                {
-                    secondaryAttackItem.Activate(true);
-                }
-                else
-                {
-                    secondaryAttackItem.Activate(false);
-                }
-            }
-            else
-            {
-                secondaryAttackItem.Activate(false);
-            }
+            secondaryAttackItem.Activate(secondaryAttack);
         }
 
-        // global rewind + energy consumption
-        if (mainSkill)
-        {
-            float energyCost = mainSkillItem.IsActivated() ? 
-                energyConsumptionPerSecond * Time.fixedDeltaTime : 
-                energyConsumptionPerSecond * Rewindable.MIN_REWIND_TIME;
-            if (energy.Consume(energyCost))
-            {
-                mainSkillItem.Activate(true);
-            }
-            else
-            {
-                mainSkillItem.Activate(false);
-            }
-        }
-        else
-        {
-            mainSkillItem.Activate(false);
-        }
-
+        mainSkillItem.Activate(mainSkill);
     }
 
 
@@ -136,12 +96,6 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    void OnSecondarySkill()
-    {
-        //RewindObjectUnderMouse();
-    }
-
-
     void AimAtMouse()
     {
         var direction = GetAimPosition() - transform.position;
@@ -165,9 +119,4 @@ public class PlayerController : MonoBehaviour
 
         return new Vector3(0,0,-1);
     }
-
-
-
-
-
 }

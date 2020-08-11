@@ -205,7 +205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 20
+  energyConsumptionPerSecond: 25
   startPoint: {fileID: 3967417143043718376}
   endPoint: {fileID: 3967417142796235353}
-  laserSound: {fileID: 0}
   isActivated: 0
+  laserSound: {fileID: 0}

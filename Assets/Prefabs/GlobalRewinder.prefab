@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a262344e461dc904db9577919bf09da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  energyConsumptionPerSecond: 25
 --- !u!114 &-5905305414629325711
 MonoBehaviour:
   m_ObjectHideFlags: 0

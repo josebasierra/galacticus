@@ -14,11 +14,8 @@ public class Rewindable : MonoBehaviour
     static List<Rewindable> instances;
 
     [HideInInspector] public RewindableDestruction rewindableDestruction;
-
-    RewindableRigidbody rewindableRigidbody;
-    RewindableHealth rewindableHealth;
-    RewindablePartSystem rewindableParticleSystem;
-    RewindableAudio rewindableAudio;
+    RigidbodyRewinder rigidbodyRewinder;
+    PartSystemRewinder rewindableParticleSystem;
 
     Highlighter highlighter;
 
@@ -38,25 +35,13 @@ public class Rewindable : MonoBehaviour
         var rigidbody = GetComponent<Rigidbody>();
         if (rigidbody != null)
         {
-            rewindableRigidbody = new RewindableRigidbody(this, transform, rigidbody);
-        }
-
-        var health = GetComponent<Health>();
-        if (health != null)
-        {
-            rewindableHealth = new RewindableHealth(this, health);
+            rigidbodyRewinder = new RigidbodyRewinder(this, transform, rigidbody);
         }
 
         var pSystem = GetComponent<ParticleSystem>();
         if (pSystem != null)
         {
-            rewindableParticleSystem = new RewindablePartSystem(this, pSystem);
-        }
-
-        var audioComponent = GetComponent<AudioComponent>();
-        if (audioComponent != null)
-        {
-            rewindableAudio = new RewindableAudio(this, audioComponent);
+            rewindableParticleSystem = new PartSystemRewinder(this, pSystem);
         }
 
         timeRegister = new LimitedStack<float>(MaxCapacity());
@@ -157,25 +142,12 @@ public class Rewindable : MonoBehaviour
             }
             return;
         }
-        //if (timeRegister.IsEmpty() && recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
-        //{
-        //    Debug.Log("Rewindable: " + Time.fixedTime.ToString());
-        //    Destroy(this.gameObject);
-        //}
 
         OnRewind?.Invoke(timeRegister.Top());
         timeRegister.Pop();
 
         currentRewindedSeconds += Time.fixedDeltaTime;
 
-
-        //if this was the last rewind:
-
-        //if (timeRegister.IsEmpty() && recordedSeconds < maximumRewindSeconds)         // if reached origin/instantiation of object
-        //{
-        //    Debug.Log("Rewindable: " + Time.fixedTime.ToString());
-        //    Destroy(this.gameObject);
-        //}
         if (!timeRegister.IsEmpty() && currentRewindedSeconds > secondsToBeRewinded)
         {
             StopRewind();

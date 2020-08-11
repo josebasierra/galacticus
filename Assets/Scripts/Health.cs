@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class Health : MonoBehaviour
+public class Health : MonoBehaviour, IRewindableData<float>
 {
-    [SerializeField] float maxValue;
-    [SerializeField] float currentValue;
+    [SerializeField] protected float maxValue;
+    [SerializeField] protected float currentValue;
     [SerializeField] GameObject deathEffect;
     [SerializeField] AudioClip deathSound;
 
@@ -14,6 +14,7 @@ public class Health : MonoBehaviour
     bool isDead = false;
     AudioComponent audioComponent;
 
+    BasicDataRewinder<float> rewinder;
 
     public void TakeDamage(float value)
     {
@@ -68,5 +69,19 @@ public class Health : MonoBehaviour
     {
         currentValue = maxValue;
         audioComponent = GetComponent<AudioComponent>();
+
+        rewinder = new BasicDataRewinder<float>(GetComponentInParent<Rewindable>(), this); 
+    }
+
+
+    public float GetRewindableData()
+    {
+        return currentValue;
+    }
+
+
+    public void SetRewindableData(float data)
+    {
+        SetCurrentValue(data);
     }
 }

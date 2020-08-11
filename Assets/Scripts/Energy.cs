@@ -14,7 +14,7 @@ public class Energy : MonoBehaviour
 
     public bool Consume(float consumeValue)
     {
-        if (isOverheated) return false;
+        if (isOverheated && consumeValue > 0) return false;
 
         currentValue -= consumeValue;
         if (currentValue < 0) isOverheated = true;

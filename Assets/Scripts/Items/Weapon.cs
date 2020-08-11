@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour, IItem
+public class Weapon : MonoBehaviour, IItem, IRewindableData<float>
 {
     [SerializeField] float shootForce;
     [SerializeField] float cooldown;
+    [SerializeField] float energyConsumption;
     
     [SerializeField] GameObject prefabBullet;
     [SerializeField] Transform releasePoint;
@@ -14,9 +15,9 @@ public class Weapon : MonoBehaviour, IItem
     bool isActivated = false;
     float timeWithoutShooting = 0f;
 
-    //time rewind...
-    LimitedStack<float> timeWithoutShootingRegister;
-    Rewindable rewindable;
+    Energy energy;
+
+    BasicDataRewinder<float> rewinder;
 
 
     public void Activate(bool value)
@@ -31,32 +32,25 @@ public class Weapon : MonoBehaviour, IItem
     }
 
 
-    void OnEnable()
+    void Start()
     {
-        if (rewindable == null)
-        {
-            rewindable = GetComponentInParent<Rewindable>();
-            timeWithoutShootingRegister = new LimitedStack<float>(rewindable.MaxCapacity());
-        }
-        rewindable.OnRewind += OnRewind;
-        rewindable.OnRecord += OnRecord;
-    }
-
-
-    void OnDisable()
-    {
-        rewindable.OnRewind -= OnRewind;
-        rewindable.OnRecord -= OnRecord;
+        rewinder = new BasicDataRewinder<float>(GetComponentInParent<Rewindable>(), this);
+        energy = GetComponentInParent<Energy>();
     }
 
 
     void FixedUpdate()
     {
         timeWithoutShooting += Time.fixedDeltaTime;
-        if (isActivated && timeWithoutShooting > cooldown)
+
+        if (isActivated)
         {
-            Shoot();
-            timeWithoutShooting = 0;
+            bool sufficientEnergy = energy == null || energy.Consume(energyConsumption);
+            if (timeWithoutShooting > cooldown && sufficientEnergy)
+            {
+                Shoot();
+                timeWithoutShooting = 0;
+            }
         }
     }
 
@@ -77,15 +71,13 @@ public class Weapon : MonoBehaviour, IItem
     }
 
 
-    void OnRewind(float time)
+    public float GetRewindableData()
     {
-        timeWithoutShooting = timeWithoutShootingRegister.Top();
-        timeWithoutShootingRegister.Pop();
+        return timeWithoutShooting;
     }
 
-
-    void OnRecord()
+    public void SetRewindableData(float data)
     {
-        timeWithoutShootingRegister.Push(timeWithoutShooting);
+        timeWithoutShooting = data;
     }
 }
